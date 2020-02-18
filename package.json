@@ -11,10 +11,13 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "dbExport": "bash ./export_contentful.sh"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gatsby": "^2.19.7",
+    "gatsby-source-contentful": "^2.1.86",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },

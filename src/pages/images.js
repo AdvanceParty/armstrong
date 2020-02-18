@@ -1,10 +1,10 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
-const HomePage = () => (
+const ImageList = () => (
   <StaticQuery
     query={graphql`
-      query contentImage {
+      query imageList {
         contentfulImage {
           alt
           caption
@@ -28,8 +28,7 @@ const HomePage = () => (
       },
     }) => (
       <>
-        <h1>Armstrong</h1>
-        <h2>A Contentful|Gatsby Integration Test</h2>
+        <h1>Images:</h1>
         <p>{caption}</p>
         <img src={`https:${url}`} alt={alt} />
       </>
@@ -37,4 +36,4 @@ const HomePage = () => (
   />
 )
 
-export default HomePage
+export default ImageList

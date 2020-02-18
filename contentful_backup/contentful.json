@@ -1,0 +1,2535 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "image",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T06:41:41.593Z",
+        "updatedAt": "2020-02-17T11:02:03.232Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2020-02-17T11:02:03.232Z",
+        "firstPublishedAt": "2020-02-17T06:41:42.284Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "alt",
+      "name": "Image",
+      "description": "A still image. Most likely it's gonna be a JPG, PNG or GIF.",
+      "fields": [
+        {
+          "id": "file",
+          "name": "File",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "alt",
+          "name": "Alt Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "caption",
+          "name": "Caption",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "attribution",
+          "name": "Attribution",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 256
+              }
+            },
+            {
+              "nodes": {
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "weblink"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only link to Url and inline entry nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "callout",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T06:46:36.553Z",
+        "updatedAt": "2020-02-17T07:09:26.080Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2020-02-17T07:09:26.080Z",
+        "firstPublishedAt": "2020-02-17T06:47:08.709Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": null,
+      "name": "Callout",
+      "description": "Pull quotes, \"look at me\" text. Not intended to be used as a banner or other \"feature\" content type.",
+      "fields": [
+        {
+          "id": "content",
+          "name": "content",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "nodes": {
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3"
+              ],
+              "message": "Only heading 2 and heading 3 nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "article",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T07:07:34.551Z",
+        "updatedAt": "2020-02-17T10:26:49.894Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2020-02-17T10:26:49.894Z",
+        "firstPublishedAt": "2020-02-17T07:07:35.881Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Article",
+      "description": "A generalised self-contained bundle of content. Blog posts, PR pieces, etc.\nContains at least a plain text title and rich text body. Optional elements such as images, callouts, summaries may also be included.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "featureImage",
+          "name": "Feature Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 256
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "nodes": {
+                "entry-hyperlink": [
+                  {
+                    "linkContentType": [
+                      "article"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "image"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "image"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hyperlink",
+                "blockquote",
+                "entry-hyperlink",
+                "embedded-entry-block"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and block entry nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "weblink",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T07:18:42.702Z",
+        "updatedAt": "2020-02-17T10:09:04.866Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2020-02-17T10:09:04.866Z",
+        "firstPublishedAt": "2020-02-17T07:18:43.780Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "label",
+      "name": "Weblink",
+      "description": "Link to a URL/URI",
+      "fields": [
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "regexp": {
+                "pattern": "^(ftp|http|https):\\/\\/(\\w+:{0,1}\\w*@)?(\\S+)(:[0-9]+)?(\\/|\\/([\\w#!:.?+=&%@!\\-/]))?$"
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "label",
+          "name": "Label",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "quote",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T11:13:11.263Z",
+        "updatedAt": "2020-02-17T11:15:17.627Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-02-17T11:15:17.627Z",
+        "firstPublishedAt": "2020-02-17T11:13:12.811Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "source",
+      "name": "Quote",
+      "description": "Fields for content and attribution, so you can drop a pithy quote and tell people where it came from.",
+      "fields": [
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 512
+              }
+            },
+            {
+              "nodes": {
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+              ],
+              "message": "Nodes are not allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "source",
+          "name": "Source",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 128
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "imageGallery",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T11:22:30.222Z",
+        "updatedAt": "2020-02-17T11:22:32.072Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-02-17T11:22:32.072Z",
+        "firstPublishedAt": "2020-02-17T11:22:32.072Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Image Gallery",
+      "description": "Collection of images to be displayed as a group",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 128
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 256
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "images",
+          "name": "Images",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 1
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "image"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "banner",
+        "type": "ContentType",
+        "createdAt": "2020-02-17T11:27:50.553Z",
+        "updatedAt": "2020-02-17T11:30:08.128Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2020-02-17T11:30:08.128Z",
+        "firstPublishedAt": "2020-02-17T11:27:51.377Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Banner",
+      "description": "Hero content",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 64
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 256
+              }
+            },
+            {
+              "nodes": {
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4"
+              ],
+              "message": "Only heading 2, heading 3, and heading 4 nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "bg",
+          "name": "Background Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            },
+            {
+              "assetImageDimensions": {
+                "width": {
+                  "min": 500,
+                  "max": null
+                },
+                "height": {
+                  "min": 300,
+                  "max": null
+                }
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "cta",
+          "name": "Calls To Action",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 4
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2020-02-17T06:41:42.367Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T11:02:04.656Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "image",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "file",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "alt",
+          "settings": {
+            "helpText": "Describes your image for anyone who can't  see it. This includes: search engines, people using screen-readers, and people on slow or stalled internet connections. Be succinct, but specific."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "caption",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "attribution",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2020-02-17T06:47:08.783Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T07:09:27.299Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "callout",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 16,
+        "createdAt": "2020-02-17T07:07:35.949Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T10:26:51.673Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "article",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "featureImage",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "Briefly summarise the main topic or contention of the article. Used primarily for SEO and social media sharing, but may also be used for content previews and other summary components."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "Auto generated based on your title. Helps with SEO-friendly urls."
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 10,
+        "createdAt": "2020-02-17T07:18:43.848Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T10:09:06.965Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "weblink",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "url",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "label",
+          "settings": {
+            "helpText": "Text seen by a user."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "A description of where the link will take the user when they click on it. Recommended for SEO and accessibility."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2020-02-17T11:13:12.883Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T11:15:19.280Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "quote",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "source",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-02-17T11:22:32.141Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T11:22:33.453Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "imageGallery",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "images",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryCardsEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2020-02-17T11:27:51.439Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-17T11:30:09.744Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "banner",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "bg",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "cta",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "4p4O7pmISPVBuhGmwkmof9",
+        "type": "Entry",
+        "createdAt": "2020-02-17T07:45:47.546Z",
+        "updatedAt": "2020-02-17T10:27:51.807Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 88,
+        "publishedAt": "2020-02-17T10:27:51.807Z",
+        "firstPublishedAt": "2020-02-17T08:01:43.330Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 89,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Unreal World"
+        },
+        "featureImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2a0OZC474GlHqYnw3Q6ppL"
+            }
+          }
+        },
+        "description": {
+          "en-US": "For the first time in human history, we’re looking down the barrel of a world in which, not only are we fundamentally uncertain of what is real, we aren’t even the sole creators of the unreality that surrounds us."
+        },
+        "content": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "italic"
+                          }
+                        ],
+                        "value": "“Simulation is no longer that of a territory, a referential being or substance. It is a generation by models of a real without origin or reality: a hyperreal.” — Jean Baudrillard, 1981",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "blockquote"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "“Whoah” — Keanu Reeves, 1999.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "blockquote"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Philosophers, artists and stoned teenagers have grappled for centuries with the nature of reality, and the impossibility of ever truly knowing if what we experience as real is, well, actually ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "real.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Doubting the world around us is a peculiarly human trait. Gazelles do not go around thinking “",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "but wait, what if this pack of hungry lions running towards me isn’t real?”",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " And any that do start thinking that way are likely to experience some pretty swift Darwinian consequences.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "By contrast, the gazelle who thinks “",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "that looks like a lion, I’d better fuck off",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "” is a gazelle that stands a very good chance of staying alive and continuing to fuck off for a great number of years, regardless of whether or not every single thing from which it fucks off is, in fact, real.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Somewhere along the evolutionary road, humans developed the twin gifts of self-awareness and creativity. And this has lead us to make a pretty bold distinction between things that are actual things and things that are not actually anything at all: real and unreal.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And good old reality used to feel pretty reliable. We tended to think we had a decent handle on what was real and what wasn’t. We’d get together in big, smug groups and laugh at all those stupid gazelles on the savannah, getting startled by puffs of wind and fucking off from absolutely nothing at all.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "But things change. We’ve gone digital, online, wireless. We’ve spent the last fifty years or so cheerfully severing the links between representations of things and the things they represent. And in the last decade we’ve really stepped up the pace.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Digitisation has enabled infinite reproduction. Data can be endlessly cloned and distributed without any discernible loss of fidelity. And almost anything can be reduced to data: art, knowledge, ideas, debt, money, history, culture. Even physical objects can be scanned, modelled and analysed as digital data, and spat back out into the world courtesy of a 3D printer.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Our digital photos are enhanced with effects which represent imperfections and characteristics of an analogue medium that has been killed off because we all take digital photos (which we enhance with effects which represent imperfection…well, you get the idea).",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And money? Hah! Pure fantasy. It’s been decades since money actually represented real gold, of course, but now we have apps which represent the money which used to but no longer represents gold.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "About 70% of trading of the US stock market is conducted by algorithms! Entire economies are reliant on automated software trading vast amounts of money that doesn’t really exist, following sets of rules which are largely designed to respond to market activity which is mostly generated by other software systems doing the same thing. Nearly three quarters of the US stock market is just a bunch of computers passing imaginary money back and forth between themselves.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "So nothing is real. Fine. Great. At least we own that. We rule this world, and we alone possess the power of invention, of creating something from nothing. If you want to hear some bullshit, go talk to a human being.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And now we’re really on a roll. We are so enamoured with making shit up that we reckoned it would be fun to make up some new things that can go right ahead make up their own shit. Our computers have started to create things.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Artificial intelligence and machine learning has been advancing at a startling rate. The explosion of work in this field is producing new kinds of software. Software which behaves less like the cold true/false, if-this-then-that logic gates of traditional programming and much more like our own fuzzy trial-and-error approach to problem solving.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And sure, what the computers are doing right now isn’t what you might call ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "real creativity ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "or ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "real",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " invention. But if it’s a good enough simulation of the real thing, and inevitably it will be so good that we can no longer tell the difference, then what difference does it make?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "For the first time in human history, we’re looking down the barrel of a world in which, not only are we fundamentally uncertain of what is real, we aren’t even the sole creators of the unreality that surrounds us.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Baudrillard would be having ball right now if he wasn’t dead.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "All of which brings us, in a roundabout sort of way, to Advance Party and our current mission. ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "The Unreal World",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " is an investigation into the opportunities and risks presented to creators and communicators in the age of",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://thispersondoesnotexist.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": " people who don’t exist",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", of",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.abc.net.au/news/2018-12-29/hologram-technology-letting-dead-musicians-tour-again/10600996"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": " dead musicians going on tour",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", and text generators",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": " too dangerous to make public",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". We hope you’ll join us for the ride. It’s should be a real good time.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "slug": {
+          "en-US": "the-unreal-world"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "2a0OZC474GlHqYnw3Q6ppL",
+        "type": "Entry",
+        "createdAt": "2020-02-17T07:53:47.461Z",
+        "updatedAt": "2020-02-17T11:07:17.598Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 252,
+        "publishedAt": "2020-02-17T11:07:17.598Z",
+        "firstPublishedAt": "2020-02-17T08:00:55.748Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 253,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "image"
+          }
+        }
+      },
+      "fields": {
+        "file": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6W5QhHvDyc8OU53sNMZdJy"
+            }
+          }
+        },
+        "alt": {
+          "en-US": "Screenshot from the Matrix. Morpheus offers a red pill to Neo."
+        },
+        "caption": {
+          "en-US": "Take the red pill, and see how deep the rabbit hole goes."
+        },
+        "attribution": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "(c) Warner Brothers 1999 or some such bullshit. More info at ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.imdb.com/title/tt0133093/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "target": {
+                        "sys": {
+                          "id": "2HsoCSEyNp6TU3M9MxyVBk",
+                          "type": "Link",
+                          "linkType": "Entry"
+                        }
+                      }
+                    },
+                    "content": [
+                    ],
+                    "nodeType": "embedded-entry-inline"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ".",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "2HsoCSEyNp6TU3M9MxyVBk",
+        "type": "Entry",
+        "createdAt": "2020-02-17T08:05:59.847Z",
+        "updatedAt": "2020-02-17T11:04:31.814Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 65,
+        "publishedAt": "2020-02-17T11:04:31.814Z",
+        "firstPublishedAt": "2020-02-17T08:07:38.686Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 66,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "weblink"
+          }
+        }
+      },
+      "fields": {
+        "url": {
+          "en-US": "https://www.imdb.com/title/tt0133093/"
+        },
+        "label": {
+          "en-US": "The Matrix on IMDB"
+        },
+        "description": {
+          "en-US": "Opens the IMDB page for more information about the Matrix."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "HbEybleq1dVEQ5WH9ceOZ",
+        "type": "Entry",
+        "createdAt": "2020-02-17T11:14:07.324Z",
+        "updatedAt": "2020-02-17T11:15:42.026Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2020-02-17T11:15:42.026Z",
+        "firstPublishedAt": "2020-02-17T11:15:42.026Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "quote"
+          }
+        }
+      },
+      "fields": {
+        "content": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "My mama always said life was like a box of chocolates. You never know what you're gonna get.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "source": {
+          "en-US": "Forest Gump"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "7lrRueF7ynavj0vsyK0Jgg",
+        "type": "Entry",
+        "createdAt": "2020-02-17T11:17:11.586Z",
+        "updatedAt": "2020-02-17T11:17:32.142Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2020-02-17T11:17:32.142Z",
+        "firstPublishedAt": "2020-02-17T11:17:32.142Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "quote"
+          }
+        }
+      },
+      "fields": {
+        "content": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "source": {
+          "en-US": "Terry Malloy"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "szSvkVaIY4SytLsGgGo5T",
+        "type": "Entry",
+        "createdAt": "2020-02-17T11:17:51.904Z",
+        "updatedAt": "2020-02-17T11:18:41.870Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 30,
+        "publishedAt": "2020-02-17T11:18:41.870Z",
+        "firstPublishedAt": "2020-02-17T11:18:41.870Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 31,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "quote"
+          }
+        }
+      },
+      "fields": {
+        "content": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Roads? Where we're going we don't need roads.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "source": {
+          "en-US": "Doctor Emmet Lathrop \"Doc\" Brown, Ph.D."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "5Qq2EY4Y4rAc8EC63DLc0I",
+        "type": "Entry",
+        "createdAt": "2020-02-17T11:19:36.686Z",
+        "updatedAt": "2020-02-17T11:19:48.699Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2020-02-17T11:19:48.699Z",
+        "firstPublishedAt": "2020-02-17T11:19:48.699Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "quote"
+          }
+        }
+      },
+      "fields": {
+        "content": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "I'm walking here! I'm walking here!",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "source": {
+          "en-US": "Ratso Rizzo"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "6W5QhHvDyc8OU53sNMZdJy",
+        "type": "Asset",
+        "createdAt": "2020-02-17T07:53:55.541Z",
+        "updatedAt": "2020-02-17T07:58:06.735Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 204,
+        "publishedAt": "2020-02-17T07:58:06.735Z",
+        "firstPublishedAt": "2020-02-17T07:58:06.735Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 205,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Red pill blue pill"
+        },
+        "description": {
+          "en-US": "A scene from the Matrix. Neo is offered a choice: ignorance and safety, or knowledge and risk."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/25wcs8ynb5r9/6W5QhHvDyc8OU53sNMZdJy/8575b32f7f825f800e70bac7fcde2322/red-or-blue-pill-matrix-neo-morpheus.jpg",
+            "details": {
+              "size": 461833,
+              "image": {
+                "width": 1344,
+                "height": 742
+              }
+            },
+            "fileName": "red-or-blue-pill-matrix-neo-morpheus.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "169YhmTPq6ZEp96niB8f96",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "createdAt": "2020-02-17T06:24:57Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedAt": "2020-02-17T06:24:57Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+  ]
+}
