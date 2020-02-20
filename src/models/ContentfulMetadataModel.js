@@ -5,8 +5,6 @@ class ContenfulMetadataModel {
     this.createdAt = createdAt
     this.revision = revision
     this.contentType = contentType
-
-    console.log(this)
   }
 }
 export default ContenfulMetadataModel

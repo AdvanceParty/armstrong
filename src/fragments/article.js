@@ -2,11 +2,17 @@ import { graphql } from "gatsby"
 
 export const ArticleSummary = graphql`
   fragment ArticleSummary on ContentfulArticle {
+    ...ArticleMVP
+    ...ArticleThumbnail
+    ...ArticleMetadata
+  }
+`
+
+export const ArticleMVP = graphql`
+  fragment ArticleMVP on ContentfulArticle {
     title
     description
     slug
-    ...ArticleThumbnail
-    ...ArticleMetadata
   }
 `
 
