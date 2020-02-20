@@ -1,0 +1,39 @@
+@import "reset";
+@import "palettes";
+@import "typography";
+
+body {
+  background: var(--col-body-bg);
+  min-height: 100vh;
+}
+
+figure {
+  display: block;
+}
+
+article[data-type="summary"] {
+  display: grid;
+  grid-template-areas: "header header" "thumb content" "thumb link";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 1em;
+
+  h1 {
+    grid-area: header;
+  }
+
+  .link {
+    grid-area: link;
+  }
+
+  > img {
+    grid-area: thumb;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .section {
+    grid-area: content;
+  }
+}

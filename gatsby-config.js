@@ -14,5 +14,14 @@ module.exports = {
         accessToken,
       },
     },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
+    "gatsby-plugin-sass",
   ],
 }
