@@ -1,4 +1,6 @@
 const path = require(`path`)
+
+// Generate pages at compile time
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const articleTemplate = path.resolve("./src/templates/article.js")
@@ -24,3 +26,15 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+
+// customise schema for more direct queries and JSON formats
+// exports.sourceNodes = ({actions}) => {
+//   const {createTypes} = actions;
+//   const typeDefs = `
+//     interface ImageNode implements ContentfulAsset {
+
+//     }
+
+//     type
+//   `
+// }

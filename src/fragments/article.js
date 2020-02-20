@@ -30,9 +30,7 @@ export const ArticleMetadata = graphql`
 export const ArticleThumbnail = graphql`
   fragment ArticleThumbnail on ContentfulArticle {
     featureImage {
-      file {
-        ...ImageSrcResized
-      }
+      ...ImageThumbnail
     }
   }
 `
