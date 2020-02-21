@@ -12,7 +12,7 @@
         "id": "image",
         "type": "ContentType",
         "createdAt": "2020-02-17T06:41:41.593Z",
-        "updatedAt": "2020-02-20T11:39:47.405Z",
+        "updatedAt": "2020-02-21T06:56:49.728Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2020-02-20T11:39:47.405Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-02-21T06:56:49.728Z",
         "firstPublishedAt": "2020-02-17T06:41:42.284Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 7,
-        "version": 14,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -108,45 +108,21 @@
           "omitted": false
         },
         {
-          "id": "attribution",
-          "name": "Attribution",
-          "type": "RichText",
+          "id": "copyright",
+          "name": "Copyright Information",
+          "type": "Link",
           "localized": false,
           "required": false,
           "validations": [
             {
-              "size": {
-                "max": 256
-              }
-            },
-            {
-              "nodes": {
-                "embedded-entry-inline": [
-                  {
-                    "linkContentType": [
-                      "weblink"
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "enabledMarks": [
-                "bold",
-                "italic"
-              ],
-              "message": "Only bold and italic marks are allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "hyperlink",
-                "embedded-entry-inline"
-              ],
-              "message": "Only link to Url and inline entry nodes are allowed"
+              "linkContentType": [
+                "attribution"
+              ]
             }
           ],
           "disabled": false,
-          "omitted": false
+          "omitted": false,
+          "linkType": "Entry"
         }
       ]
     },
@@ -447,7 +423,7 @@
         "id": "banner",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:27:50.553Z",
-        "updatedAt": "2020-02-20T11:49:29.693Z",
+        "updatedAt": "2020-02-21T03:41:48.311Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -455,8 +431,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 17,
-        "publishedAt": "2020-02-20T11:49:29.693Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-02-21T03:41:48.311Z",
         "firstPublishedAt": "2020-02-17T11:27:51.377Z",
         "createdBy": {
           "sys": {
@@ -472,8 +448,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 9,
-        "version": 18,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -483,7 +459,7 @@
         }
       },
       "displayField": "title",
-      "name": "Banner",
+      "name": "Hero",
       "description": "Hero content",
       "fields": [
         {
@@ -1104,6 +1080,188 @@
           "linkType": "Entry"
         }
       ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "attribution",
+        "type": "ContentType",
+        "createdAt": "2020-02-21T04:42:39.463Z",
+        "updatedAt": "2020-02-21T06:37:28.027Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2020-02-21T06:37:28.027Z",
+        "firstPublishedAt": "2020-02-21T04:42:40.120Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "content",
+      "name": "Attribution",
+      "description": "Credit where it's due",
+      "fields": [
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "links",
+          "name": "Links",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "weblink"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "weblink",
+        "type": "ContentType",
+        "createdAt": "2020-02-21T04:50:34.749Z",
+        "updatedAt": "2020-02-21T04:50:35.880Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-02-21T04:50:35.880Z",
+        "firstPublishedAt": "2020-02-21T04:50:35.880Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "label",
+      "name": "Weblink",
+      "description": "Click it and go somewhere",
+      "fields": [
+        {
+          "id": "label",
+          "name": "Label",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 128
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "regexp": {
+                "pattern": "^(ftp|http|https):\\/\\/(\\w+:{0,1}\\w*@)?(\\S+)(:[0-9]+)?(\\/|\\/([\\w#!:.?+=&%@!\\-/]))?$"
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
     }
   ],
   "editorInterfaces": [
@@ -1118,7 +1276,7 @@
             "linkType": "Space"
           }
         },
-        "version": 14,
+        "version": 20,
         "createdAt": "2020-02-17T06:41:42.367Z",
         "createdBy": {
           "sys": {
@@ -1127,7 +1285,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-20T11:39:50.242Z",
+        "updatedAt": "2020-02-21T06:56:51.756Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -1175,8 +1333,8 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "attribution",
-          "widgetId": "richTextEditor",
+          "fieldId": "copyright",
+          "widgetId": "entryCardEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -1363,7 +1521,7 @@
             "linkType": "Space"
           }
         },
-        "version": 18,
+        "version": 20,
         "createdAt": "2020-02-17T11:27:51.439Z",
         "createdBy": {
           "sys": {
@@ -1372,7 +1530,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-20T11:49:31.129Z",
+        "updatedAt": "2020-02-21T03:41:49.532Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -1682,6 +1840,132 @@
         {
           "fieldId": "content",
           "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2020-02-21T04:42:40.248Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-21T06:37:29.784Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "attribution",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "content",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "links",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-02-21T04:50:35.945Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-21T04:50:37.100Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "weblink",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "label",
+          "settings": {
+            "helpText": "The visible text part that users will click on."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "url",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "Used for title or aria-label attributes to give additional information and context to people with screenreaders. Also helpful for SEO."
+          },
+          "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         }
       ]
