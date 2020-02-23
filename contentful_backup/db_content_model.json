@@ -564,7 +564,7 @@
         "id": "vine",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:02:09.564Z",
-        "updatedAt": "2020-02-23T03:10:39.046Z",
+        "updatedAt": "2020-02-23T10:27:17.237Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -572,8 +572,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 39,
-        "publishedAt": "2020-02-23T03:10:39.046Z",
+        "publishedVersion": 45,
+        "publishedAt": "2020-02-23T10:27:17.237Z",
         "firstPublishedAt": "2020-02-20T11:02:10.235Z",
         "createdBy": {
           "sys": {
@@ -589,8 +589,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 20,
-        "version": 40,
+        "publishedCounter": 23,
+        "version": 46,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -721,8 +721,32 @@
                 "entry-hyperlink": [
                   {
                     "linkContentType": [
-                      "page",
+                      "article",
+                      "image",
+                      "simplePage",
                       "vine"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
                     ]
                   }
                 ]
@@ -746,10 +770,9 @@
                 "unordered-list",
                 "hyperlink",
                 "blockquote",
-                "entry-hyperlink",
-                "embedded-asset-block"
+                "entry-hyperlink"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, and link to entry nodes are allowed"
             }
           ],
           "disabled": false,
@@ -1647,7 +1670,7 @@
         "id": "article",
         "type": "ContentType",
         "createdAt": "2020-02-23T01:53:19.110Z",
-        "updatedAt": "2020-02-23T03:56:22.589Z",
+        "updatedAt": "2020-02-23T10:26:13.815Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1655,8 +1678,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2020-02-23T03:56:22.589Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-02-23T10:26:13.815Z",
         "firstPublishedAt": "2020-02-23T01:53:20.085Z",
         "createdBy": {
           "sys": {
@@ -1672,8 +1695,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 7,
-        "version": 14,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1789,8 +1812,31 @@
                 "entry-hyperlink": [
                   {
                     "linkContentType": [
-                      "page",
+                      "article",
+                      "simplePage",
                       "vine"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
                     ]
                   }
                 ]
@@ -1814,10 +1860,9 @@
                 "unordered-list",
                 "hyperlink",
                 "blockquote",
-                "entry-hyperlink",
-                "embedded-asset-block"
+                "entry-hyperlink"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, and link to entry nodes are allowed"
             }
           ],
           "disabled": false,
@@ -2182,7 +2227,7 @@
         "id": "simplePage",
         "type": "ContentType",
         "createdAt": "2020-02-23T05:25:39.218Z",
-        "updatedAt": "2020-02-23T05:25:40.186Z",
+        "updatedAt": "2020-02-23T10:26:46.841Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2190,8 +2235,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-23T05:25:40.186Z",
+        "publishedVersion": 5,
+        "publishedAt": "2020-02-23T10:26:46.841Z",
         "firstPublishedAt": "2020-02-23T05:25:40.186Z",
         "createdBy": {
           "sys": {
@@ -2207,8 +2252,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2287,8 +2332,30 @@
                   {
                     "linkContentType": [
                       "article",
-                      "page",
+                      "simplePage",
                       "vine"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
                     ]
                   }
                 ]
@@ -2313,10 +2380,9 @@
                 "blockquote",
                 "entry-hyperlink",
                 "hr",
-                "hyperlink",
-                "embedded-asset-block"
+                "hyperlink"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, and link to Url nodes are allowed"
             }
           ],
           "disabled": false,
@@ -2646,7 +2712,7 @@
             "linkType": "Space"
           }
         },
-        "version": 40,
+        "version": 46,
         "createdAt": "2020-02-20T11:02:10.307Z",
         "createdBy": {
           "sys": {
@@ -2655,7 +2721,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:10:42.199Z",
+        "updatedAt": "2020-02-23T10:27:19.870Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3242,7 +3308,7 @@
             "linkType": "Space"
           }
         },
-        "version": 14,
+        "version": 20,
         "createdAt": "2020-02-23T01:53:20.168Z",
         "createdBy": {
           "sys": {
@@ -3251,7 +3317,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:56:24.690Z",
+        "updatedAt": "2020-02-23T10:26:15.914Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3499,7 +3565,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 6,
         "createdAt": "2020-02-23T05:25:40.263Z",
         "createdBy": {
           "sys": {
@@ -3508,7 +3574,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T05:25:41.315Z",
+        "updatedAt": "2020-02-23T10:26:48.943Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",

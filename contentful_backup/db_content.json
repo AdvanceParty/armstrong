@@ -564,7 +564,7 @@
         "id": "vine",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:02:09.564Z",
-        "updatedAt": "2020-02-23T03:10:39.046Z",
+        "updatedAt": "2020-02-23T10:27:17.237Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -572,8 +572,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 39,
-        "publishedAt": "2020-02-23T03:10:39.046Z",
+        "publishedVersion": 45,
+        "publishedAt": "2020-02-23T10:27:17.237Z",
         "firstPublishedAt": "2020-02-20T11:02:10.235Z",
         "createdBy": {
           "sys": {
@@ -589,8 +589,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 20,
-        "version": 40,
+        "publishedCounter": 23,
+        "version": 46,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -721,8 +721,32 @@
                 "entry-hyperlink": [
                   {
                     "linkContentType": [
-                      "page",
+                      "article",
+                      "image",
+                      "simplePage",
                       "vine"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
                     ]
                   }
                 ]
@@ -746,10 +770,9 @@
                 "unordered-list",
                 "hyperlink",
                 "blockquote",
-                "entry-hyperlink",
-                "embedded-asset-block"
+                "entry-hyperlink"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, and link to entry nodes are allowed"
             }
           ],
           "disabled": false,
@@ -1647,7 +1670,7 @@
         "id": "article",
         "type": "ContentType",
         "createdAt": "2020-02-23T01:53:19.110Z",
-        "updatedAt": "2020-02-23T03:56:22.589Z",
+        "updatedAt": "2020-02-23T10:26:13.815Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1655,8 +1678,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2020-02-23T03:56:22.589Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-02-23T10:26:13.815Z",
         "firstPublishedAt": "2020-02-23T01:53:20.085Z",
         "createdBy": {
           "sys": {
@@ -1672,8 +1695,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 7,
-        "version": 14,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1789,8 +1812,31 @@
                 "entry-hyperlink": [
                   {
                     "linkContentType": [
-                      "page",
+                      "article",
+                      "simplePage",
                       "vine"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
                     ]
                   }
                 ]
@@ -1814,10 +1860,9 @@
                 "unordered-list",
                 "hyperlink",
                 "blockquote",
-                "entry-hyperlink",
-                "embedded-asset-block"
+                "entry-hyperlink"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, and link to entry nodes are allowed"
             }
           ],
           "disabled": false,
@@ -2182,7 +2227,7 @@
         "id": "simplePage",
         "type": "ContentType",
         "createdAt": "2020-02-23T05:25:39.218Z",
-        "updatedAt": "2020-02-23T05:25:40.186Z",
+        "updatedAt": "2020-02-23T10:26:46.841Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2190,8 +2235,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-23T05:25:40.186Z",
+        "publishedVersion": 5,
+        "publishedAt": "2020-02-23T10:26:46.841Z",
         "firstPublishedAt": "2020-02-23T05:25:40.186Z",
         "createdBy": {
           "sys": {
@@ -2207,8 +2252,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2287,8 +2332,30 @@
                   {
                     "linkContentType": [
                       "article",
-                      "page",
+                      "simplePage",
                       "vine"
+                    ]
+                  }
+                ],
+                "embedded-entry-block": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "audio",
+                      "imageGallery",
+                      "image",
+                      "linkList",
+                      "video"
                     ]
                   }
                 ]
@@ -2313,10 +2380,9 @@
                 "blockquote",
                 "entry-hyperlink",
                 "hr",
-                "hyperlink",
-                "embedded-asset-block"
+                "hyperlink"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, and link to Url nodes are allowed"
             }
           ],
           "disabled": false,
@@ -2646,7 +2712,7 @@
             "linkType": "Space"
           }
         },
-        "version": 40,
+        "version": 46,
         "createdAt": "2020-02-20T11:02:10.307Z",
         "createdBy": {
           "sys": {
@@ -2655,7 +2721,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:10:42.199Z",
+        "updatedAt": "2020-02-23T10:27:19.870Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3242,7 +3308,7 @@
             "linkType": "Space"
           }
         },
-        "version": 14,
+        "version": 20,
         "createdAt": "2020-02-23T01:53:20.168Z",
         "createdBy": {
           "sys": {
@@ -3251,7 +3317,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:56:24.690Z",
+        "updatedAt": "2020-02-23T10:26:15.914Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3499,7 +3565,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 6,
         "createdAt": "2020-02-23T05:25:40.263Z",
         "createdBy": {
           "sys": {
@@ -3508,7 +3574,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T05:25:41.315Z",
+        "updatedAt": "2020-02-23T10:26:48.943Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -4824,7 +4890,7 @@
         "id": "4lJGZ2PF1cG8yq4Au8SFek",
         "type": "Entry",
         "createdAt": "2020-02-22T01:53:21.351Z",
-        "updatedAt": "2020-02-23T03:55:28.591Z",
+        "updatedAt": "2020-02-23T07:21:41.217Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4832,8 +4898,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 10,
-        "publishedAt": "2020-02-23T03:55:28.591Z",
+        "publishedVersion": 43,
+        "publishedAt": "2020-02-23T07:21:41.217Z",
         "firstPublishedAt": "2020-02-22T05:25:55.820Z",
         "createdBy": {
           "sys": {
@@ -4849,8 +4915,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 11,
+        "publishedCounter": 3,
+        "version": 44,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4867,6 +4933,105 @@
         }
       },
       "fields": {
+        "heading": {
+          "en-US": "Augment This!"
+        },
+        "body": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "What do you get when you cross a ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "hamster",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " with a ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "bowl of spinach",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "?",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Read on to ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "find out",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": ".",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        },
         "image": {
           "en-US": {
             "sys": {
@@ -6496,7 +6661,7 @@
         "id": "7IwWI0la7th0a9JMslh9Kn",
         "type": "Entry",
         "createdAt": "2020-02-23T02:41:17.363Z",
-        "updatedAt": "2020-02-23T03:30:22.645Z",
+        "updatedAt": "2020-02-23T10:17:28.618Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6504,8 +6669,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 100,
-        "publishedAt": "2020-02-23T03:30:22.645Z",
+        "publishedVersion": 104,
+        "publishedAt": "2020-02-23T10:17:28.618Z",
         "firstPublishedAt": "2020-02-23T02:51:48.406Z",
         "createdBy": {
           "sys": {
@@ -6521,8 +6686,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 101,
+        "publishedCounter": 4,
+        "version": 105,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6714,15 +6879,15 @@
                 "data": {
                   "target": {
                     "sys": {
-                      "id": "4GSM9aFYyZ2vyODDU8RM5J",
+                      "id": "5QUbsXtAUgi9NXofrpWB25",
                       "type": "Link",
-                      "linkType": "Asset"
+                      "linkType": "Entry"
                     }
                   }
                 },
                 "content": [
                 ],
-                "nodeType": "embedded-asset-block"
+                "nodeType": "embedded-entry-block"
               },
               {
                 "data": {
@@ -6859,7 +7024,7 @@
         "id": "sfd4BZfX4Lfh9FVsTCWrk",
         "type": "Entry",
         "createdAt": "2020-02-23T03:31:39.226Z",
-        "updatedAt": "2020-02-23T03:51:07.046Z",
+        "updatedAt": "2020-02-23T10:15:47.439Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6867,8 +7032,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 181,
-        "publishedAt": "2020-02-23T03:51:07.046Z",
+        "publishedVersion": 185,
+        "publishedAt": "2020-02-23T10:15:47.439Z",
         "firstPublishedAt": "2020-02-23T03:41:50.361Z",
         "createdBy": {
           "sys": {
@@ -6884,8 +7049,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 182,
+        "publishedCounter": 3,
+        "version": 186,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7012,6 +7177,20 @@
                   }
                 ],
                 "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "1scza5TLHMp1eJlGNX7alf",
+                      "type": "Link",
+                      "linkType": "Entry"
+                    }
+                  }
+                },
+                "content": [
+                ],
+                "nodeType": "embedded-entry-block"
               },
               {
                 "data": {
@@ -7693,6 +7872,78 @@
             ],
             "nodeType": "document"
           }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "5QUbsXtAUgi9NXofrpWB25",
+        "type": "Entry",
+        "createdAt": "2020-02-23T10:16:16.864Z",
+        "updatedAt": "2020-02-23T10:17:16.011Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 30,
+        "publishedAt": "2020-02-23T10:17:16.011Z",
+        "firstPublishedAt": "2020-02-23T10:17:16.011Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 31,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "image"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "CDU Work Examples"
+        },
+        "file": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4GSM9aFYyZ2vyODDU8RM5J"
+            }
+          }
+        },
+        "alt": {
+          "en-US": "Examples of the work"
         }
       }
     }
