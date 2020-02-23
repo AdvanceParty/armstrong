@@ -7,32 +7,32 @@ import { graphql } from "gatsby"
  * srcSet: comma separated string of "uri size" pairs
  */
 
-export const ImageThumbnail = graphql`
-  fragment ImageThumbnail on ContentfulImage {
-    alt
-    caption
-    file {
-      title
-      description
-      fixed(width: 200, height: 200, resizingBehavior: FILL) {
-        width
-        height
-        src
-      }
-    }
-  }
-`
+// export const ImageThumbnail = graphql`
+//   fragment ImageThumbnail on ContentfulImage {
+//     alt
+//     caption
+//     file {
+//       title
+//       description
+//       fixed(width: 200, height: 200, resizingBehavior: FILL) {
+//         width
+//         height
+//         src
+//       }
+//     }
+//   }
+// `
 
-export const ImageFluid = graphql`
-  fragment ImageFluid on ContentfulImage {
-    alt
-    caption
-    file {
-      title
-      description
-      fluid {
-        ...GatsbyContentfulFluid
-      }
-    }
-  }
-`
+// export const ImageFluid = graphql`
+//   fragment ImageFluid on ContentfulImage {
+//     alt
+//     caption
+//     file {
+//       title
+//       description
+//       fluid {
+//         ...GatsbyContentfulFluid
+//       }
+//     }
+//   }
+// `

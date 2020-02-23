@@ -1,38 +1,44 @@
 import React from "react"
 import { graphql } from "gatsby"
-import ArticleSummaryItem from "../components/ArticleSummaryItem"
-
-import ContentfulMetadataModel from "../models/ContentfulMetadataModel"
-import ThumbnailModel from "../models/ThumbnailModel"
+import ContentItemPreview from "../components/ContentItemPreview"
 
 export default ({ data }) => {
-  const { edges } = data.allContentfulArticle
+  const vineData = data.allContentfulVine.nodes
+  const articleData = data.allContentfulArticle.nodes
 
-  const items = edges.map(edge => {
-    const { title, description, slug } = edge.node
-
-    const props = { title, description, slug }
-    props.metadata = new ContentfulMetadataModel({ ...edge.node })
-    props.thumbnail = new ThumbnailModel(edge.node.featureImage.file.fixed)
-
-    return <ArticleSummaryItem {...props} key={slug} />
-  })
+  const vines = vineData.map(node => (
+    <ContentItemPreview {...node} key={node.id} />
+  ))
+  const articles = articleData.map(node => (
+    <ContentItemPreview {...node} key={node.id} />
+  ))
 
   return (
     <>
-      <h1>Articles</h1>
-      {items}
+      <h2>Vines</h2>
+      {vines}
+      <h2>Articles</h2>
+      {articles}
     </>
   )
 }
 
 export const query = graphql`
   query {
+    allContentfulVine {
+      nodes {
+        slug
+        id
+        title
+        description
+      }
+    }
     allContentfulArticle {
-      edges {
-        node {
-          ...ArticleSummary
-        }
+      nodes {
+        slug
+        id
+        title
+        description
       }
     }
   }
