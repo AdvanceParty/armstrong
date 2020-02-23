@@ -9,7 +9,6 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 const Bold = ({ children }) => <strong>{children}</strong>
 const Italic = ({ children }) => <em>{children}</em>
 const Text = ({ children }) => <p>{children}</p>
-
 const options = {
   renderMark: {
     [MARKS.BOLD]: text => <Bold>{text}</Bold>,
