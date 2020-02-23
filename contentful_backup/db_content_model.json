@@ -12,7 +12,7 @@
         "id": "image",
         "type": "ContentType",
         "createdAt": "2020-02-17T06:41:41.593Z",
-        "updatedAt": "2020-02-22T02:39:41.635Z",
+        "updatedAt": "2020-02-23T03:11:03.152Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-02-22T02:39:41.635Z",
+        "publishedVersion": 33,
+        "publishedAt": "2020-02-23T03:11:03.152Z",
         "firstPublishedAt": "2020-02-17T06:41:42.284Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 17,
+        "version": 34,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -48,7 +48,7 @@
         }
       },
       "displayField": "title",
-      "name": "Image",
+      "name": "Image Pod",
       "description": "A pod for an image asset.",
       "fields": [
         {
@@ -156,7 +156,7 @@
         "id": "callout",
         "type": "ContentType",
         "createdAt": "2020-02-17T06:46:36.553Z",
-        "updatedAt": "2020-02-18T01:39:02.827Z",
+        "updatedAt": "2020-02-23T03:14:52.388Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -164,8 +164,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 8,
-        "publishedAt": "2020-02-18T01:39:02.827Z",
+        "publishedVersion": 10,
+        "publishedAt": "2020-02-23T03:14:52.388Z",
         "firstPublishedAt": "2020-02-17T06:47:08.709Z",
         "createdBy": {
           "sys": {
@@ -181,8 +181,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 4,
-        "version": 9,
+        "publishedCounter": 5,
+        "version": 11,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -339,7 +339,7 @@
         "id": "imageGallery",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:22:30.222Z",
-        "updatedAt": "2020-02-21T11:19:47.347Z",
+        "updatedAt": "2020-02-23T03:00:49.869Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -347,8 +347,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-02-21T11:19:47.347Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-02-23T03:00:49.869Z",
         "firstPublishedAt": "2020-02-17T11:22:32.072Z",
         "createdBy": {
           "sys": {
@@ -364,8 +364,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 7,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -375,7 +375,7 @@
         }
       },
       "displayField": "title",
-      "name": "Image Gallery",
+      "name": "Image Gallery Pod",
       "description": "Collection of images to be displayed as a group",
       "fields": [
         {
@@ -446,7 +446,7 @@
         "id": "banner",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:27:50.553Z",
-        "updatedAt": "2020-02-22T01:37:36.823Z",
+        "updatedAt": "2020-02-23T02:53:24.837Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -454,8 +454,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 23,
-        "publishedAt": "2020-02-22T01:37:36.823Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-02-23T02:53:24.837Z",
         "firstPublishedAt": "2020-02-17T11:27:51.377Z",
         "createdBy": {
           "sys": {
@@ -471,8 +471,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 12,
-        "version": 24,
+        "publishedCounter": 15,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -541,14 +541,14 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": [
+              "linkMimetypeGroup": [
                 "image"
               ]
             }
           ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Entry"
+          "linkType": "Asset"
         }
       ]
     },
@@ -564,7 +564,7 @@
         "id": "vine",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:02:09.564Z",
-        "updatedAt": "2020-02-23T01:52:05.134Z",
+        "updatedAt": "2020-02-23T03:10:39.046Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -572,8 +572,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2020-02-23T01:52:05.134Z",
+        "publishedVersion": 39,
+        "publishedAt": "2020-02-23T03:10:39.046Z",
         "firstPublishedAt": "2020-02-20T11:02:10.235Z",
         "createdBy": {
           "sys": {
@@ -589,8 +589,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 15,
-        "version": 30,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -609,6 +609,17 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -673,8 +684,9 @@
           "validations": [
             {
               "size": {
-                "max": 6
-              }
+                "max": 8
+              },
+              "message": "You can only attach a maximum of eight pods to a vine."
             }
           ],
           "disabled": false,
@@ -685,7 +697,6 @@
               {
                 "linkContentType": [
                   "audio",
-                  "callToAction",
                   "callout",
                   "image",
                   "imageGallery",
@@ -714,17 +725,6 @@
                       "vine"
                     ]
                   }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "callToAction",
-                      "callout",
-                      "image",
-                      "imageGallery",
-                      "quote"
-                    ]
-                  }
                 ]
               }
             },
@@ -747,10 +747,9 @@
                 "hyperlink",
                 "blockquote",
                 "entry-hyperlink",
-                "embedded-entry-block",
                 "embedded-asset-block"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, block entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
             }
           ],
           "disabled": false,
@@ -887,7 +886,7 @@
         "id": "page",
         "type": "ContentType",
         "createdAt": "2020-02-20T12:03:35.772Z",
-        "updatedAt": "2020-02-20T12:04:20.394Z",
+        "updatedAt": "2020-02-23T03:13:37.865Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -895,8 +894,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-02-20T12:04:20.394Z",
+        "publishedVersion": 5,
+        "publishedAt": "2020-02-23T03:13:37.865Z",
         "firstPublishedAt": "2020-02-20T12:03:37.563Z",
         "createdBy": {
           "sys": {
@@ -912,8 +911,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -949,8 +948,8 @@
           "omitted": false
         },
         {
-          "id": "banner",
-          "name": "Banner",
+          "id": "hero",
+          "name": "Hero",
           "type": "Link",
           "localized": false,
           "required": false,
@@ -991,23 +990,9 @@
                 "entry-hyperlink": [
                   {
                     "linkContentType": [
+                      "article",
                       "page",
                       "vine"
-                    ]
-                  }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "image",
-                      "imageGallery"
-                    ]
-                  }
-                ],
-                "embedded-entry-inline": [
-                  {
-                    "linkContentType": [
-                      "image"
                     ]
                   }
                 ]
@@ -1030,13 +1015,12 @@
                 "ordered-list",
                 "unordered-list",
                 "blockquote",
-                "embedded-entry-block",
                 "entry-hyperlink",
-                "embedded-entry-inline",
                 "hr",
-                "hyperlink"
+                "hyperlink",
+                "embedded-asset-block"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, block entry, link to entry, inline entry, horizontal rule, and link to Url nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
             }
           ],
           "disabled": false,
@@ -1152,7 +1136,7 @@
         "id": "linkList",
         "type": "ContentType",
         "createdAt": "2020-02-22T01:49:33.653Z",
-        "updatedAt": "2020-02-22T01:49:34.834Z",
+        "updatedAt": "2020-02-23T03:01:24.992Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1160,8 +1144,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T01:49:34.834Z",
+        "publishedVersion": 3,
+        "publishedAt": "2020-02-23T03:01:24.992Z",
         "firstPublishedAt": "2020-02-22T01:49:34.834Z",
         "createdBy": {
           "sys": {
@@ -1177,8 +1161,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1188,7 +1172,7 @@
         }
       },
       "displayField": "title",
-      "name": "Link List",
+      "name": "Link List Pod",
       "description": "A collection of Link's, grouped together as a list.",
       "fields": [
         {
@@ -1254,7 +1238,7 @@
         "id": "video",
         "type": "ContentType",
         "createdAt": "2020-02-22T02:38:31.224Z",
-        "updatedAt": "2020-02-22T02:38:32.127Z",
+        "updatedAt": "2020-02-23T02:58:21.533Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1262,8 +1246,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T02:38:32.127Z",
+        "publishedVersion": 3,
+        "publishedAt": "2020-02-23T02:58:21.533Z",
         "firstPublishedAt": "2020-02-22T02:38:32.127Z",
         "createdBy": {
           "sys": {
@@ -1279,8 +1263,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1290,7 +1274,7 @@
         }
       },
       "displayField": "title",
-      "name": "Video",
+      "name": "Video Pod",
       "description": "A pod for a video asset.",
       "fields": [
         {
@@ -1395,154 +1379,10 @@
             "id": "25wcs8ynb5r9"
           }
         },
-        "id": "audio",
-        "type": "ContentType",
-        "createdAt": "2020-02-22T02:38:56.943Z",
-        "updatedAt": "2020-02-22T02:38:57.969Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T02:38:57.969Z",
-        "firstPublishedAt": "2020-02-22T02:38:57.969Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Audio",
-      "description": "A pod for an audio asset.",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "size": {
-                "max": 100
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "file",
-          "name": "File",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "linkMimetypeGroup": [
-                "audio"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "alt",
-          "name": "Alt Text",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "caption",
-          "name": "Caption",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "attribution",
-          "name": "Attribution",
-          "type": "RichText",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            },
-            {
-              "nodes": {
-              }
-            },
-            {
-              "enabledMarks": [
-              ],
-              "message": "Marks are not allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "hyperlink"
-              ],
-              "message": "Only link to Url nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
         "id": "royal",
         "type": "ContentType",
         "createdAt": "2020-02-22T05:59:57.166Z",
-        "updatedAt": "2020-02-23T02:32:03.757Z",
+        "updatedAt": "2020-02-23T03:02:04.823Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1550,8 +1390,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-23T02:32:03.757Z",
+        "publishedVersion": 17,
+        "publishedAt": "2020-02-23T03:02:04.823Z",
         "firstPublishedAt": "2020-02-22T05:59:58.133Z",
         "createdBy": {
           "sys": {
@@ -1567,8 +1407,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 9,
+        "version": 18,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1695,21 +1535,21 @@
           "omitted": false
         },
         {
-          "id": "photo",
-          "name": "Photo",
+          "id": "image",
+          "name": "Image",
           "type": "Link",
           "localized": false,
           "required": false,
           "validations": [
             {
-              "linkContentType": [
+              "linkMimetypeGroup": [
                 "image"
               ]
             }
           ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Entry"
+          "linkType": "Asset"
         }
       ]
     },
@@ -1961,7 +1801,7 @@
         "id": "article",
         "type": "ContentType",
         "createdAt": "2020-02-23T01:53:19.110Z",
-        "updatedAt": "2020-02-23T01:54:53.912Z",
+        "updatedAt": "2020-02-23T03:56:22.589Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1969,8 +1809,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-23T01:54:53.912Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-02-23T03:56:22.589Z",
         "firstPublishedAt": "2020-02-23T01:53:20.085Z",
         "createdBy": {
           "sys": {
@@ -1986,8 +1826,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 7,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2006,6 +1846,17 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -2085,7 +1936,7 @@
           "name": "Story",
           "type": "RichText",
           "localized": false,
-          "required": false,
+          "required": true,
           "validations": [
             {
               "nodes": {
@@ -2094,17 +1945,6 @@
                     "linkContentType": [
                       "page",
                       "vine"
-                    ]
-                  }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "callToAction",
-                      "callout",
-                      "image",
-                      "imageGallery",
-                      "quote"
                     ]
                   }
                 ]
@@ -2129,10 +1969,9 @@
                 "hyperlink",
                 "blockquote",
                 "entry-hyperlink",
-                "embedded-entry-block",
                 "embedded-asset-block"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, block entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
             }
           ],
           "disabled": false,
@@ -2152,7 +1991,7 @@
         "id": "office",
         "type": "ContentType",
         "createdAt": "2020-02-23T02:01:35.347Z",
-        "updatedAt": "2020-02-23T02:18:37.573Z",
+        "updatedAt": "2020-02-23T03:25:12.322Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2160,8 +1999,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-23T02:18:37.573Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-02-23T03:25:12.322Z",
         "firstPublishedAt": "2020-02-23T02:01:36.490Z",
         "createdBy": {
           "sys": {
@@ -2177,8 +2016,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2335,9 +2174,153 @@
               ]
             }
           ],
+          "disabled": true,
+          "omitted": true,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "audio",
+        "type": "ContentType",
+        "createdAt": "2020-02-23T02:58:45.186Z",
+        "updatedAt": "2020-02-23T03:00:16.852Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-02-23T03:00:16.852Z",
+        "firstPublishedAt": "2020-02-23T03:00:16.852Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Audio  Pod",
+      "description": "A pod for an audio asset.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 100
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "file",
+          "name": "File",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "audio"
+              ]
+            }
+          ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Entry"
+          "linkType": "Asset"
+        },
+        {
+          "id": "alt",
+          "name": "Alt Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 128
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "caption",
+          "name": "Caption",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "attribution",
+          "name": "Attribution",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 128
+              }
+            },
+            {
+              "nodes": {
+              }
+            },
+            {
+              "enabledMarks": [
+              ],
+              "message": "Marks are not allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "hyperlink"
+              ],
+              "message": "Only link to Url nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
         }
       ]
     }
@@ -2354,7 +2337,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 34,
         "createdAt": "2020-02-17T06:41:42.367Z",
         "createdBy": {
           "sys": {
@@ -2363,7 +2346,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T02:39:45.066Z",
+        "updatedAt": "2020-02-23T03:11:05.260Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2431,7 +2414,7 @@
             "linkType": "Space"
           }
         },
-        "version": 8,
+        "version": 10,
         "createdAt": "2020-02-17T06:47:08.783Z",
         "createdBy": {
           "sys": {
@@ -2440,7 +2423,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-18T01:39:04.176Z",
+        "updatedAt": "2020-02-23T03:14:54.843Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2538,7 +2521,7 @@
             "linkType": "Space"
           }
         },
-        "version": 12,
+        "version": 14,
         "createdAt": "2020-02-17T11:22:32.141Z",
         "createdBy": {
           "sys": {
@@ -2547,7 +2530,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-21T11:19:49.334Z",
+        "updatedAt": "2020-02-23T03:00:51.966Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2602,7 +2585,7 @@
             "linkType": "Space"
           }
         },
-        "version": 24,
+        "version": 30,
         "createdAt": "2020-02-17T11:27:51.439Z",
         "createdBy": {
           "sys": {
@@ -2611,7 +2594,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T01:37:41.423Z",
+        "updatedAt": "2020-02-23T02:53:26.931Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2647,7 +2630,7 @@
         },
         {
           "fieldId": "image",
-          "widgetId": "entryCardEditor",
+          "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -2663,7 +2646,7 @@
             "linkType": "Space"
           }
         },
-        "version": 30,
+        "version": 40,
         "createdAt": "2020-02-20T11:02:10.307Z",
         "createdBy": {
           "sys": {
@@ -2672,7 +2655,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T01:52:07.231Z",
+        "updatedAt": "2020-02-23T03:10:42.199Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2698,6 +2681,11 @@
       "controls": [
         {
           "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
@@ -2820,7 +2808,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 6,
         "createdAt": "2020-02-20T12:03:37.634Z",
         "createdBy": {
           "sys": {
@@ -2829,7 +2817,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-20T12:04:21.805Z",
+        "updatedAt": "2020-02-23T03:13:39.877Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2864,7 +2852,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "banner",
+          "fieldId": "hero",
           "widgetId": "entryLinkEditor",
           "widgetNamespace": "builtin"
         },
@@ -2958,7 +2946,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2020-02-22T01:49:34.909Z",
         "createdBy": {
           "sys": {
@@ -2967,7 +2955,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T01:49:37.013Z",
+        "updatedAt": "2020-02-23T03:01:27.092Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3022,7 +3010,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2020-02-22T02:38:32.194Z",
         "createdBy": {
           "sys": {
@@ -3031,7 +3019,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T02:38:33.076Z",
+        "updatedAt": "2020-02-23T02:58:23.636Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3099,84 +3087,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
-        "createdAt": "2020-02-22T02:38:58.034Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-22T02:38:58.727Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "audio",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "file",
-          "widgetId": "assetLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "alt",
-          "settings": {
-            "helpText": "Describes your image for anyone who can't see it. This includes: search engines and people using screen-readers. If you leave this blank, the image title will be used for alt text."
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "caption",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "attribution",
-          "settings": {
-            "helpText": "Copyright and licensing information about the work"
-          },
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 10,
+        "version": 18,
         "createdAt": "2020-02-22T05:59:58.215Z",
         "createdBy": {
           "sys": {
@@ -3185,7 +3096,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T02:32:05.867Z",
+        "updatedAt": "2020-02-23T03:02:06.924Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3250,8 +3161,8 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "photo",
-          "widgetId": "entryLinkEditor",
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -3402,7 +3313,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 14,
         "createdAt": "2020-02-23T01:53:20.168Z",
         "createdBy": {
           "sys": {
@@ -3411,7 +3322,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T01:54:56.012Z",
+        "updatedAt": "2020-02-23T03:56:24.690Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3437,6 +3348,11 @@
       "controls": [
         {
           "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
@@ -3487,7 +3403,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 12,
         "createdAt": "2020-02-23T02:01:36.595Z",
         "createdBy": {
           "sys": {
@@ -3496,7 +3412,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T02:18:40.208Z",
+        "updatedAt": "2020-02-23T03:25:14.417Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3568,6 +3484,77 @@
         {
           "fieldId": "picture",
           "widgetId": "entryCardEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-02-23T03:00:16.930Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-23T03:00:18.934Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "audio",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "file",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "alt",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "caption",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "attribution",
+          "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
       ]

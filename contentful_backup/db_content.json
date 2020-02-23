@@ -12,7 +12,7 @@
         "id": "image",
         "type": "ContentType",
         "createdAt": "2020-02-17T06:41:41.593Z",
-        "updatedAt": "2020-02-22T02:39:41.635Z",
+        "updatedAt": "2020-02-23T03:11:03.152Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 31,
-        "publishedAt": "2020-02-22T02:39:41.635Z",
+        "publishedVersion": 33,
+        "publishedAt": "2020-02-23T03:11:03.152Z",
         "firstPublishedAt": "2020-02-17T06:41:42.284Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 16,
-        "version": 32,
+        "publishedCounter": 17,
+        "version": 34,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -48,7 +48,7 @@
         }
       },
       "displayField": "title",
-      "name": "Image",
+      "name": "Image Pod",
       "description": "A pod for an image asset.",
       "fields": [
         {
@@ -156,7 +156,7 @@
         "id": "callout",
         "type": "ContentType",
         "createdAt": "2020-02-17T06:46:36.553Z",
-        "updatedAt": "2020-02-18T01:39:02.827Z",
+        "updatedAt": "2020-02-23T03:14:52.388Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -164,8 +164,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 8,
-        "publishedAt": "2020-02-18T01:39:02.827Z",
+        "publishedVersion": 10,
+        "publishedAt": "2020-02-23T03:14:52.388Z",
         "firstPublishedAt": "2020-02-17T06:47:08.709Z",
         "createdBy": {
           "sys": {
@@ -181,8 +181,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 4,
-        "version": 9,
+        "publishedCounter": 5,
+        "version": 11,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -339,7 +339,7 @@
         "id": "imageGallery",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:22:30.222Z",
-        "updatedAt": "2020-02-21T11:19:47.347Z",
+        "updatedAt": "2020-02-23T03:00:49.869Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -347,8 +347,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-02-21T11:19:47.347Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-02-23T03:00:49.869Z",
         "firstPublishedAt": "2020-02-17T11:22:32.072Z",
         "createdBy": {
           "sys": {
@@ -364,8 +364,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 7,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -375,7 +375,7 @@
         }
       },
       "displayField": "title",
-      "name": "Image Gallery",
+      "name": "Image Gallery Pod",
       "description": "Collection of images to be displayed as a group",
       "fields": [
         {
@@ -446,7 +446,7 @@
         "id": "banner",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:27:50.553Z",
-        "updatedAt": "2020-02-22T01:37:36.823Z",
+        "updatedAt": "2020-02-23T02:53:24.837Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -454,8 +454,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 23,
-        "publishedAt": "2020-02-22T01:37:36.823Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-02-23T02:53:24.837Z",
         "firstPublishedAt": "2020-02-17T11:27:51.377Z",
         "createdBy": {
           "sys": {
@@ -471,8 +471,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 12,
-        "version": 24,
+        "publishedCounter": 15,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -541,14 +541,14 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": [
+              "linkMimetypeGroup": [
                 "image"
               ]
             }
           ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Entry"
+          "linkType": "Asset"
         }
       ]
     },
@@ -564,7 +564,7 @@
         "id": "vine",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:02:09.564Z",
-        "updatedAt": "2020-02-23T01:52:05.134Z",
+        "updatedAt": "2020-02-23T03:10:39.046Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -572,8 +572,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2020-02-23T01:52:05.134Z",
+        "publishedVersion": 39,
+        "publishedAt": "2020-02-23T03:10:39.046Z",
         "firstPublishedAt": "2020-02-20T11:02:10.235Z",
         "createdBy": {
           "sys": {
@@ -589,8 +589,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 15,
-        "version": 30,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -609,6 +609,17 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -673,8 +684,9 @@
           "validations": [
             {
               "size": {
-                "max": 6
-              }
+                "max": 8
+              },
+              "message": "You can only attach a maximum of eight pods to a vine."
             }
           ],
           "disabled": false,
@@ -685,7 +697,6 @@
               {
                 "linkContentType": [
                   "audio",
-                  "callToAction",
                   "callout",
                   "image",
                   "imageGallery",
@@ -714,17 +725,6 @@
                       "vine"
                     ]
                   }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "callToAction",
-                      "callout",
-                      "image",
-                      "imageGallery",
-                      "quote"
-                    ]
-                  }
                 ]
               }
             },
@@ -747,10 +747,9 @@
                 "hyperlink",
                 "blockquote",
                 "entry-hyperlink",
-                "embedded-entry-block",
                 "embedded-asset-block"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, block entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
             }
           ],
           "disabled": false,
@@ -887,7 +886,7 @@
         "id": "page",
         "type": "ContentType",
         "createdAt": "2020-02-20T12:03:35.772Z",
-        "updatedAt": "2020-02-20T12:04:20.394Z",
+        "updatedAt": "2020-02-23T03:13:37.865Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -895,8 +894,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-02-20T12:04:20.394Z",
+        "publishedVersion": 5,
+        "publishedAt": "2020-02-23T03:13:37.865Z",
         "firstPublishedAt": "2020-02-20T12:03:37.563Z",
         "createdBy": {
           "sys": {
@@ -912,8 +911,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 3,
+        "version": 6,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -949,8 +948,8 @@
           "omitted": false
         },
         {
-          "id": "banner",
-          "name": "Banner",
+          "id": "hero",
+          "name": "Hero",
           "type": "Link",
           "localized": false,
           "required": false,
@@ -991,23 +990,9 @@
                 "entry-hyperlink": [
                   {
                     "linkContentType": [
+                      "article",
                       "page",
                       "vine"
-                    ]
-                  }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "image",
-                      "imageGallery"
-                    ]
-                  }
-                ],
-                "embedded-entry-inline": [
-                  {
-                    "linkContentType": [
-                      "image"
                     ]
                   }
                 ]
@@ -1030,13 +1015,12 @@
                 "ordered-list",
                 "unordered-list",
                 "blockquote",
-                "embedded-entry-block",
                 "entry-hyperlink",
-                "embedded-entry-inline",
                 "hr",
-                "hyperlink"
+                "hyperlink",
+                "embedded-asset-block"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, block entry, link to entry, inline entry, horizontal rule, and link to Url nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
             }
           ],
           "disabled": false,
@@ -1152,7 +1136,7 @@
         "id": "linkList",
         "type": "ContentType",
         "createdAt": "2020-02-22T01:49:33.653Z",
-        "updatedAt": "2020-02-22T01:49:34.834Z",
+        "updatedAt": "2020-02-23T03:01:24.992Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1160,8 +1144,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T01:49:34.834Z",
+        "publishedVersion": 3,
+        "publishedAt": "2020-02-23T03:01:24.992Z",
         "firstPublishedAt": "2020-02-22T01:49:34.834Z",
         "createdBy": {
           "sys": {
@@ -1177,8 +1161,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1188,7 +1172,7 @@
         }
       },
       "displayField": "title",
-      "name": "Link List",
+      "name": "Link List Pod",
       "description": "A collection of Link's, grouped together as a list.",
       "fields": [
         {
@@ -1254,7 +1238,7 @@
         "id": "video",
         "type": "ContentType",
         "createdAt": "2020-02-22T02:38:31.224Z",
-        "updatedAt": "2020-02-22T02:38:32.127Z",
+        "updatedAt": "2020-02-23T02:58:21.533Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1262,8 +1246,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T02:38:32.127Z",
+        "publishedVersion": 3,
+        "publishedAt": "2020-02-23T02:58:21.533Z",
         "firstPublishedAt": "2020-02-22T02:38:32.127Z",
         "createdBy": {
           "sys": {
@@ -1279,8 +1263,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1290,7 +1274,7 @@
         }
       },
       "displayField": "title",
-      "name": "Video",
+      "name": "Video Pod",
       "description": "A pod for a video asset.",
       "fields": [
         {
@@ -1395,154 +1379,10 @@
             "id": "25wcs8ynb5r9"
           }
         },
-        "id": "audio",
-        "type": "ContentType",
-        "createdAt": "2020-02-22T02:38:56.943Z",
-        "updatedAt": "2020-02-22T02:38:57.969Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T02:38:57.969Z",
-        "firstPublishedAt": "2020-02-22T02:38:57.969Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Audio",
-      "description": "A pod for an audio asset.",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "size": {
-                "max": 100
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "file",
-          "name": "File",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "linkMimetypeGroup": [
-                "audio"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "alt",
-          "name": "Alt Text",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "caption",
-          "name": "Caption",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "attribution",
-          "name": "Attribution",
-          "type": "RichText",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            },
-            {
-              "nodes": {
-              }
-            },
-            {
-              "enabledMarks": [
-              ],
-              "message": "Marks are not allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "hyperlink"
-              ],
-              "message": "Only link to Url nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
         "id": "royal",
         "type": "ContentType",
         "createdAt": "2020-02-22T05:59:57.166Z",
-        "updatedAt": "2020-02-23T02:32:03.757Z",
+        "updatedAt": "2020-02-23T03:02:04.823Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1550,8 +1390,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-23T02:32:03.757Z",
+        "publishedVersion": 17,
+        "publishedAt": "2020-02-23T03:02:04.823Z",
         "firstPublishedAt": "2020-02-22T05:59:58.133Z",
         "createdBy": {
           "sys": {
@@ -1567,8 +1407,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 9,
+        "version": 18,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1695,21 +1535,21 @@
           "omitted": false
         },
         {
-          "id": "photo",
-          "name": "Photo",
+          "id": "image",
+          "name": "Image",
           "type": "Link",
           "localized": false,
           "required": false,
           "validations": [
             {
-              "linkContentType": [
+              "linkMimetypeGroup": [
                 "image"
               ]
             }
           ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Entry"
+          "linkType": "Asset"
         }
       ]
     },
@@ -1961,7 +1801,7 @@
         "id": "article",
         "type": "ContentType",
         "createdAt": "2020-02-23T01:53:19.110Z",
-        "updatedAt": "2020-02-23T01:54:53.912Z",
+        "updatedAt": "2020-02-23T03:56:22.589Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1969,8 +1809,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-23T01:54:53.912Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-02-23T03:56:22.589Z",
         "firstPublishedAt": "2020-02-23T01:53:20.085Z",
         "createdBy": {
           "sys": {
@@ -1986,8 +1826,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 7,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2006,6 +1846,17 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -2085,7 +1936,7 @@
           "name": "Story",
           "type": "RichText",
           "localized": false,
-          "required": false,
+          "required": true,
           "validations": [
             {
               "nodes": {
@@ -2094,17 +1945,6 @@
                     "linkContentType": [
                       "page",
                       "vine"
-                    ]
-                  }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "callToAction",
-                      "callout",
-                      "image",
-                      "imageGallery",
-                      "quote"
                     ]
                   }
                 ]
@@ -2129,10 +1969,9 @@
                 "hyperlink",
                 "blockquote",
                 "entry-hyperlink",
-                "embedded-entry-block",
                 "embedded-asset-block"
               ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, block entry, and asset nodes are allowed"
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, link to entry, and asset nodes are allowed"
             }
           ],
           "disabled": false,
@@ -2152,7 +1991,7 @@
         "id": "office",
         "type": "ContentType",
         "createdAt": "2020-02-23T02:01:35.347Z",
-        "updatedAt": "2020-02-23T02:18:37.573Z",
+        "updatedAt": "2020-02-23T03:25:12.322Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2160,8 +1999,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-23T02:18:37.573Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-02-23T03:25:12.322Z",
         "firstPublishedAt": "2020-02-23T02:01:36.490Z",
         "createdBy": {
           "sys": {
@@ -2177,8 +2016,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2335,9 +2174,153 @@
               ]
             }
           ],
+          "disabled": true,
+          "omitted": true,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "audio",
+        "type": "ContentType",
+        "createdAt": "2020-02-23T02:58:45.186Z",
+        "updatedAt": "2020-02-23T03:00:16.852Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-02-23T03:00:16.852Z",
+        "firstPublishedAt": "2020-02-23T03:00:16.852Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Audio  Pod",
+      "description": "A pod for an audio asset.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 100
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "file",
+          "name": "File",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "audio"
+              ]
+            }
+          ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Entry"
+          "linkType": "Asset"
+        },
+        {
+          "id": "alt",
+          "name": "Alt Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 128
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "caption",
+          "name": "Caption",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "attribution",
+          "name": "Attribution",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 128
+              }
+            },
+            {
+              "nodes": {
+              }
+            },
+            {
+              "enabledMarks": [
+              ],
+              "message": "Marks are not allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "hyperlink"
+              ],
+              "message": "Only link to Url nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
         }
       ]
     }
@@ -2354,7 +2337,7 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
+        "version": 34,
         "createdAt": "2020-02-17T06:41:42.367Z",
         "createdBy": {
           "sys": {
@@ -2363,7 +2346,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T02:39:45.066Z",
+        "updatedAt": "2020-02-23T03:11:05.260Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2431,7 +2414,7 @@
             "linkType": "Space"
           }
         },
-        "version": 8,
+        "version": 10,
         "createdAt": "2020-02-17T06:47:08.783Z",
         "createdBy": {
           "sys": {
@@ -2440,7 +2423,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-18T01:39:04.176Z",
+        "updatedAt": "2020-02-23T03:14:54.843Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2538,7 +2521,7 @@
             "linkType": "Space"
           }
         },
-        "version": 12,
+        "version": 14,
         "createdAt": "2020-02-17T11:22:32.141Z",
         "createdBy": {
           "sys": {
@@ -2547,7 +2530,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-21T11:19:49.334Z",
+        "updatedAt": "2020-02-23T03:00:51.966Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2602,7 +2585,7 @@
             "linkType": "Space"
           }
         },
-        "version": 24,
+        "version": 30,
         "createdAt": "2020-02-17T11:27:51.439Z",
         "createdBy": {
           "sys": {
@@ -2611,7 +2594,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T01:37:41.423Z",
+        "updatedAt": "2020-02-23T02:53:26.931Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2647,7 +2630,7 @@
         },
         {
           "fieldId": "image",
-          "widgetId": "entryCardEditor",
+          "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -2663,7 +2646,7 @@
             "linkType": "Space"
           }
         },
-        "version": 30,
+        "version": 40,
         "createdAt": "2020-02-20T11:02:10.307Z",
         "createdBy": {
           "sys": {
@@ -2672,7 +2655,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T01:52:07.231Z",
+        "updatedAt": "2020-02-23T03:10:42.199Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2698,6 +2681,11 @@
       "controls": [
         {
           "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
@@ -2820,7 +2808,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 6,
         "createdAt": "2020-02-20T12:03:37.634Z",
         "createdBy": {
           "sys": {
@@ -2829,7 +2817,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-20T12:04:21.805Z",
+        "updatedAt": "2020-02-23T03:13:39.877Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2864,7 +2852,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "banner",
+          "fieldId": "hero",
           "widgetId": "entryLinkEditor",
           "widgetNamespace": "builtin"
         },
@@ -2958,7 +2946,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2020-02-22T01:49:34.909Z",
         "createdBy": {
           "sys": {
@@ -2967,7 +2955,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T01:49:37.013Z",
+        "updatedAt": "2020-02-23T03:01:27.092Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3022,7 +3010,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 4,
         "createdAt": "2020-02-22T02:38:32.194Z",
         "createdBy": {
           "sys": {
@@ -3031,7 +3019,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T02:38:33.076Z",
+        "updatedAt": "2020-02-23T02:58:23.636Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3099,84 +3087,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
-        "createdAt": "2020-02-22T02:38:58.034Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-22T02:38:58.727Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "audio",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "file",
-          "widgetId": "assetLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "alt",
-          "settings": {
-            "helpText": "Describes your image for anyone who can't see it. This includes: search engines and people using screen-readers. If you leave this blank, the image title will be used for alt text."
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "caption",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "attribution",
-          "settings": {
-            "helpText": "Copyright and licensing information about the work"
-          },
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 10,
+        "version": 18,
         "createdAt": "2020-02-22T05:59:58.215Z",
         "createdBy": {
           "sys": {
@@ -3185,7 +3096,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T02:32:05.867Z",
+        "updatedAt": "2020-02-23T03:02:06.924Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3250,8 +3161,8 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "photo",
-          "widgetId": "entryLinkEditor",
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -3402,7 +3313,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 14,
         "createdAt": "2020-02-23T01:53:20.168Z",
         "createdBy": {
           "sys": {
@@ -3411,7 +3322,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T01:54:56.012Z",
+        "updatedAt": "2020-02-23T03:56:24.690Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3437,6 +3348,11 @@
       "controls": [
         {
           "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
@@ -3487,7 +3403,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 12,
         "createdAt": "2020-02-23T02:01:36.595Z",
         "createdBy": {
           "sys": {
@@ -3496,7 +3412,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T02:18:40.208Z",
+        "updatedAt": "2020-02-23T03:25:14.417Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3568,6 +3484,77 @@
         {
           "fieldId": "picture",
           "widgetId": "entryCardEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-02-23T03:00:16.930Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-23T03:00:18.934Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "audio",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "file",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "alt",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "caption",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "attribution",
+          "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -4702,6 +4689,568 @@
             "id": "25wcs8ynb5r9"
           }
         },
+        "id": "2t3mBtWuGPdLOVZtbcHxWb",
+        "type": "Entry",
+        "createdAt": "2020-02-21T11:30:25.824Z",
+        "updatedAt": "2020-02-23T02:39:07.836Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 123,
+        "publishedAt": "2020-02-23T02:39:07.836Z",
+        "firstPublishedAt": "2020-02-23T02:39:07.836Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 124,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "vine"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Why is Augmented Reality so boring?"
+        },
+        "category": {
+          "en-US": "work"
+        },
+        "description": {
+          "en-US": "Why are there so few examples of mind-blowing AR? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: Why didn’t I think of that?"
+        },
+        "hero": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4lJGZ2PF1cG8yq4Au8SFek"
+            }
+          }
+        },
+        "story": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The history of augmented reality (AR) bursts at the seams with heroic ambition and spectacular failure, and remarkably few actual successes.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "It’s hard to think of a contemporary technology more mired in hyperbole and disappointment. Beyond the megahit, ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "Pokemon Go",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", and a slew of imitators that followed in its wake, AR is most commonly associated with notorious flops like Magic Leap, Microsoft Hololens and Google Glass.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And yet there’s something about augmented reality that keeps some of the tech industry’s biggest and brightest coming back for one more try.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Google, Facebook, Microsoft, Apple and Adobe are all investing millions of dollars in AR hardware and software. Every major 2019 smartphone boasts custom chipsets, cameras and software to support AR content. AR filters feature prominently on leading social networks and chat apps.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And AR creation is no longer the exclusive domain of programmers and 3D exports. Facebook’s Spark AR Design Studio provides a drag-and-drop interface to design custom AR effects and publish them directly to Facebook social networks, chat apps and even their advertising platform, without writing a single line of code.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "But while the technology has matured, our creative thinking has not. The majority of AR content on iOS and Android app stores is unremarkable at best, derivative or gimmicky at worst.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Creative works built on new technology are largely shaped by the medium’s form, as we explore ‘what can this technology do?’.  But to fully realise a medium’s creative potential, we have to reach a point where the medium isn’t driving the work, it’s an essential part of it.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Augmented reality places a unique vehicle for creative expression at the fingertips of 90 per cent of Australians consumers. So why are there so few examples of game-changing AR executions? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "Why didn’t I think of that?",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Right Tools, Right Job  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-4"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "If we intend to craft exceptional work, we must apply a deep understanding of the relationship between the idea and the form of its expression. Whether for a TVC, a billboard, a full-page magazine ad, a microsite or neon sign, the work and its vehicle for transmission are inextricable. Each format has its own strengths and limitations, cultural associations and context of use. Each has collections of attributes contributing a unique functional and emotional texture to the messages they carry.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Of course, nobody’s arguing any of these attributes make one medium fundamentally better or worse than another. The sound and movement of video doesn’t automatically make it superior to the static composition of print. But we need to understand each medium and their unique qualities, the way a sculptor understands the flow of grain through timber or tensile strength of bronze.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "AR exists at the intersection between reality and unreality; perception and truth. These are rich territories for creativity, storytelling, engagement and persuasion. They run so much deeper than the current stock novelty AR ‘experiences’ that flood the app stores.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Just as we understand photography and film and text can each be harnessed to tell certain types of stories in particular ways, we need to approach AR by thinking about its own attributes, and how they might be used to serve our creative ideas.\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What next?  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-4"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Well, that’s up to you. Thinking about technology platforms as raw materials for creative expression, rather than a set of functional specifications, gives our ideas scope to take flight in unexpected and exciting new directions. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "As a starting point, here are three aspects of augmented reality we think are particularly intriguing starting points for creative expression and communication. There are no recipes for success here, just a handful of raw ingredients. What happens next is up to you.",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Immediacy and presence",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-4"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Almost every channel at our disposal connects with an audience despite whatever else may be happening around them. They can only succeed by drawing people away from their immediate surroundings.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "By contrast, AR is unique. Rather than shutting you off from the outside world, AR directly connects you with the world around you and invites you to see things in a different light. ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Active and responsive",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-4"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "AR offers compelling scope for extended engagement. The mirage-like nature of AR effects can be strong hooks for interaction, while the ability to create content which is responsive to people, places and objects in the immediate has significant potential as a device for repeat engagement.",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Concealment and revelation",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-4"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "AR is particularly suited to themes of discovery and exploration. It offers tantalising creative opportunity for exploring ideas related to alternate viewpoints, more than meets the eye, reality and unreality, distance and intimacy.",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What AR you waiting for?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-4"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "In the early days of motion picture cameras, filmmakers simply set the camera on a tripod and pointed it at a stage, statically capturing whatever action unfolded in front of the lens. Modern cinema fundamentals, such as the moving camera, special effects and illusion, creating meaning with juxtaposition and continuity editing, only emerged slowly as filmmakers grew to understand the unique attributes moving pictures afforded.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Today’s augmented reality is a movie camera on a tripod, pointed at a stage. It’s time to pick it up.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "slug": {
+          "en-US": "why-is-augmented-reality-so-boring"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
         "id": "nCgeGDvAsDIsKSKUL2p6R",
         "type": "Entry",
         "createdAt": "2020-02-22T01:44:35.954Z",
@@ -4837,7 +5386,7 @@
         "id": "4lJGZ2PF1cG8yq4Au8SFek",
         "type": "Entry",
         "createdAt": "2020-02-22T01:53:21.351Z",
-        "updatedAt": "2020-02-22T05:25:55.820Z",
+        "updatedAt": "2020-02-23T03:55:28.591Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4845,8 +5394,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2020-02-22T05:25:55.820Z",
+        "publishedVersion": 10,
+        "publishedAt": "2020-02-23T03:55:28.591Z",
         "firstPublishedAt": "2020-02-22T05:25:55.820Z",
         "createdBy": {
           "sys": {
@@ -4862,8 +5411,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 2,
+        "version": 11,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4884,8 +5433,8 @@
           "en-US": {
             "sys": {
               "type": "Link",
-              "linkType": "Entry",
-              "id": "c5klYOGoc9i1VpW8bVRQW"
+              "linkType": "Asset",
+              "id": "2t032u57klCB2AqXJf0PbT"
             }
           }
         }
@@ -5050,7 +5599,7 @@
         "id": "2ULXsa90MrCwcO0wzRWIJI",
         "type": "Entry",
         "createdAt": "2020-02-23T00:10:23.797Z",
-        "updatedAt": "2020-02-23T02:35:09.838Z",
+        "updatedAt": "2020-02-23T03:20:37.655Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5058,8 +5607,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 22,
-        "publishedAt": "2020-02-23T02:35:09.838Z",
+        "publishedVersion": 24,
+        "publishedAt": "2020-02-23T03:20:37.655Z",
         "firstPublishedAt": "2020-02-23T00:22:23.956Z",
         "createdBy": {
           "sys": {
@@ -5075,8 +5624,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 23,
+        "publishedCounter": 3,
+        "version": 25,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5168,76 +5717,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "28btFqCD8bJ7rp2sTbNZNE"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "28btFqCD8bJ7rp2sTbNZNE",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:19:40.174Z",
-        "updatedAt": "2020-02-23T00:22:04.559Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 33,
-        "publishedAt": "2020-02-23T00:22:04.559Z",
-        "firstPublishedAt": "2020-02-23T00:22:04.559Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 34,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Will Pigeon Bio Image"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -5245,12 +5725,6 @@
               "id": "33ewyEa83xSncChbMfDJu5"
             }
           }
-        },
-        "alt": {
-          "en-US": "Will Pigeon"
-        },
-        "caption": {
-          "en-US": "Will Pigeon is a member of our Royal Family"
         }
       }
     },
@@ -5266,7 +5740,7 @@
         "id": "4uf8CcRwjRzpDmjm95Zn80",
         "type": "Entry",
         "createdAt": "2020-02-23T00:22:29.786Z",
-        "updatedAt": "2020-02-23T02:34:48.347Z",
+        "updatedAt": "2020-02-23T03:20:59.139Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5274,8 +5748,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 17,
-        "publishedAt": "2020-02-23T02:34:48.347Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-02-23T03:20:59.139Z",
         "firstPublishedAt": "2020-02-23T00:27:05.660Z",
         "createdBy": {
           "sys": {
@@ -5291,8 +5765,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 18,
+        "publishedCounter": 3,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5369,76 +5843,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "7y2RpkOMyMPMSa8WPs5kw7"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "7y2RpkOMyMPMSa8WPs5kw7",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:23:59.897Z",
-        "updatedAt": "2020-02-23T00:26:54.419Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 46,
-        "publishedAt": "2020-02-23T00:26:54.419Z",
-        "firstPublishedAt": "2020-02-23T00:26:54.419Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 47,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Phil Matt Wu Bio Photo"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -5446,12 +5851,6 @@
               "id": "7zXwlCQ7mlRVwPCdbTDOII"
             }
           }
-        },
-        "alt": {
-          "en-US": "Phil Matt Wu"
-        },
-        "caption": {
-          "en-US": "Phil Matt Wu is a member of our Royal Family"
         }
       }
     },
@@ -5467,7 +5866,7 @@
         "id": "285x1HS5oNyo4dt1s0FLQl",
         "type": "Entry",
         "createdAt": "2020-02-23T00:27:12.270Z",
-        "updatedAt": "2020-02-23T02:34:27.910Z",
+        "updatedAt": "2020-02-23T03:21:23.775Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5475,8 +5874,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 26,
-        "publishedAt": "2020-02-23T02:34:27.910Z",
+        "publishedVersion": 28,
+        "publishedAt": "2020-02-23T03:21:23.775Z",
         "firstPublishedAt": "2020-02-23T00:30:20.426Z",
         "createdBy": {
           "sys": {
@@ -5492,8 +5891,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 27,
+        "publishedCounter": 3,
+        "version": 29,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5570,76 +5969,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "62Ak6KNoxlRoj0ITDsR78P"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "62Ak6KNoxlRoj0ITDsR78P",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:29:26.461Z",
-        "updatedAt": "2020-02-23T00:30:18.326Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 18,
-        "publishedAt": "2020-02-23T00:30:18.326Z",
-        "firstPublishedAt": "2020-02-23T00:30:18.326Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 19,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Tristan James Sweet Bio Image"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -5647,12 +5977,6 @@
               "id": "4VSEuUwBZFmBqgclnktYDW"
             }
           }
-        },
-        "alt": {
-          "en-US": "Tristan James Sweet"
-        },
-        "caption": {
-          "en-US": "Tristan James Sweet is a member of our Royal Family"
         }
       }
     },
@@ -5668,7 +5992,7 @@
         "id": "4CRmxe5jHQpSgcdZVmm2iW",
         "type": "Entry",
         "createdAt": "2020-02-23T00:30:26.737Z",
-        "updatedAt": "2020-02-23T02:33:52.779Z",
+        "updatedAt": "2020-02-23T03:21:53.654Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5676,8 +6000,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 40,
-        "publishedAt": "2020-02-23T02:33:52.779Z",
+        "publishedVersion": 42,
+        "publishedAt": "2020-02-23T03:21:53.654Z",
         "firstPublishedAt": "2020-02-23T00:33:29.126Z",
         "createdBy": {
           "sys": {
@@ -5693,8 +6017,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 3,
-        "version": 41,
+        "publishedCounter": 4,
+        "version": 43,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5771,76 +6095,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "Rmhqkli1OU62DejHAKK7W"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "Rmhqkli1OU62DejHAKK7W",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:33:32.292Z",
-        "updatedAt": "2020-02-23T00:34:37.793Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 23,
-        "publishedAt": "2020-02-23T00:34:37.793Z",
-        "firstPublishedAt": "2020-02-23T00:34:37.793Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 24,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Morwenna Barker Bio Image"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -5848,12 +6103,6 @@
               "id": "2mKp0VrQTknSGfNE8XdfRs"
             }
           }
-        },
-        "alt": {
-          "en-US": "Morwenna Barker "
-        },
-        "caption": {
-          "en-US": "Morwenna Barker is a member of our Royal Family"
         }
       }
     },
@@ -5869,7 +6118,7 @@
         "id": "7GMEAZPvQy3DmgPkm9w8W7",
         "type": "Entry",
         "createdAt": "2020-02-23T00:34:47.778Z",
-        "updatedAt": "2020-02-23T02:33:33.395Z",
+        "updatedAt": "2020-02-23T03:22:17.241Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5877,8 +6126,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-02-23T02:33:33.395Z",
+        "publishedVersion": 37,
+        "publishedAt": "2020-02-23T03:22:17.241Z",
         "firstPublishedAt": "2020-02-23T00:47:05.314Z",
         "createdBy": {
           "sys": {
@@ -5894,8 +6143,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 36,
+        "publishedCounter": 3,
+        "version": 38,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5957,76 +6206,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6shM3hkXlbXqfj0eWy0mMY"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "6shM3hkXlbXqfj0eWy0mMY",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:45:52.051Z",
-        "updatedAt": "2020-02-23T00:46:58.981Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 28,
-        "publishedAt": "2020-02-23T00:46:58.981Z",
-        "firstPublishedAt": "2020-02-23T00:46:58.981Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 29,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Chloe Blast Bio Image"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -6034,12 +6214,6 @@
               "id": "44CPoclGe7snVvlL9EhJFg"
             }
           }
-        },
-        "alt": {
-          "en-US": "Chloe Blast"
-        },
-        "caption": {
-          "en-US": "Chloe Blast is a member of our Royal Family"
         }
       }
     },
@@ -6055,7 +6229,7 @@
         "id": "2798Bop7qHWDv7UcqlVupC",
         "type": "Entry",
         "createdAt": "2020-02-23T00:47:15.287Z",
-        "updatedAt": "2020-02-23T02:33:07.711Z",
+        "updatedAt": "2020-02-23T03:22:34.021Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6063,8 +6237,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 35,
-        "publishedAt": "2020-02-23T02:33:07.711Z",
+        "publishedVersion": 37,
+        "publishedAt": "2020-02-23T03:22:34.021Z",
         "firstPublishedAt": "2020-02-23T00:50:41.760Z",
         "createdBy": {
           "sys": {
@@ -6080,8 +6254,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 36,
+        "publishedCounter": 3,
+        "version": 38,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6143,76 +6317,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "3u8Av60VF38l6JNYi7hiAX"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "3u8Av60VF38l6JNYi7hiAX",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:49:04.274Z",
-        "updatedAt": "2020-02-23T00:50:33.365Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 40,
-        "publishedAt": "2020-02-23T00:50:33.365Z",
-        "firstPublishedAt": "2020-02-23T00:50:33.365Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 41,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Clarke \"Tommy\" Doop Bio Image"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -6220,12 +6325,6 @@
               "id": "5OWUQmNdTsxnqJfZyh7Rfk"
             }
           }
-        },
-        "alt": {
-          "en-US": "Tommy Doop"
-        },
-        "caption": {
-          "en-US": "Tommy Doop is a member of our Royal family."
         }
       }
     },
@@ -6241,7 +6340,7 @@
         "id": "62bVTOM18Jf298LFF6g5c0",
         "type": "Entry",
         "createdAt": "2020-02-23T00:51:06.562Z",
-        "updatedAt": "2020-02-23T02:32:46.747Z",
+        "updatedAt": "2020-02-23T03:22:56.557Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6249,8 +6348,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 32,
-        "publishedAt": "2020-02-23T02:32:46.747Z",
+        "publishedVersion": 34,
+        "publishedAt": "2020-02-23T03:22:56.557Z",
         "firstPublishedAt": "2020-02-23T00:53:04.853Z",
         "createdBy": {
           "sys": {
@@ -6266,8 +6365,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 33,
+        "publishedCounter": 3,
+        "version": 35,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6329,76 +6428,7 @@
             "nodeType": "document"
           }
         },
-        "photo": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "5nTP6pwoQy1QaQgurdOSHd"
-            }
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "5nTP6pwoQy1QaQgurdOSHd",
-        "type": "Entry",
-        "createdAt": "2020-02-23T00:52:04.612Z",
-        "updatedAt": "2020-02-23T00:53:00.655Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 40,
-        "publishedAt": "2020-02-23T00:53:00.655Z",
-        "firstPublishedAt": "2020-02-23T00:53:00.655Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 41,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Charity Ferguson Bio Image"
-        },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -6406,12 +6436,6 @@
               "id": "3xwaOrnW7Tpvpg2kwvJpxQ"
             }
           }
-        },
-        "alt": {
-          "en-US": "Charity Ferguson"
-        },
-        "caption": {
-          "en-US": "Charity Ferguson is a member of our Royal family."
         }
       }
     },
@@ -7019,6 +7043,1218 @@
         },
         "phone": {
           "en-US": "+612 9280 1721"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "7IwWI0la7th0a9JMslh9Kn",
+        "type": "Entry",
+        "createdAt": "2020-02-23T02:41:17.363Z",
+        "updatedAt": "2020-02-23T03:30:22.645Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 100,
+        "publishedAt": "2020-02-23T03:30:22.645Z",
+        "firstPublishedAt": "2020-02-23T02:51:48.406Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 101,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "vine"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Charles Darwin University"
+        },
+        "subtitle": {
+          "en-US": "You make CDU: S1 2020 recruitment"
+        },
+        "category": {
+          "en-US": "work"
+        },
+        "description": {
+          "en-US": "Flipping the script to make Charles Darwin University stand out in a category dominated by Tier 1 East Coast universities, and where everyone is saying the same thing."
+        },
+        "hero": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "724Sknhb6Y6Cj1kvfZX8t5"
+            }
+          }
+        },
+        "pods": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1IH8gyYqT2RhJRFavr4tit"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "19oNwx0a5futo2dygV2w43"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7lrRueF7ynavj0vsyK0Jgg"
+              }
+            }
+          ]
+        },
+        "story": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Challenge",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "For the first time, the university required one campaign to recruit students across both Higher Education (HE) and Vocational Education and Training (VET).",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "In a category where everyone is saying the same thing and is dominated by Tier 1 East Coast universities, our challenge was to make Charles Darwin University (CDU) standout from the rest and also speak to two very different groups of students who each have their own challenges and different needs.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "HE were likely to be mature age students, female skew with family responsibilities and studying in mixed mode (on/off campus, remote/online). Their concerns were around practicalities, whether they could juggle study and family life, and if they could keep up with everyone else. VET students were likely to be younger males who resided in the Northern Territory and encouraged to do courses through their employer. Their concern being whether university was the right place for them.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Strategy",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The 'glue' that holds the two audiences together is that both groups feel their unique pathways, life experiences and lack of recent study experience will hold them back. Rather than this become a barrier, our opportunity was to show them they are exactly the type of students CDU needs to build the new world.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Our strategy was to flip the script: From the expected university narrative that's all about \"you need us to make your life better\" to \"we need you to help make the world better\". Separating ourselves from the traditional, elite and arrogant sandstone universities; and becoming the university that's inclusive, empowering and collaborative.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Unlike other universities, we know we are only as good as the unique minds we support and foster. We want to invite people with diverse backgrounds and life experience to help us build the new world. Our proof points then focus on how we foster a supportive environment, flexible study options, communicate warmth and community mindedness with progressive points of view.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "4GSM9aFYyZ2vyODDU8RM5J",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                },
+                "content": [
+                ],
+                "nodeType": "embedded-asset-block"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Idea",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "A long-term creative platform 'You make CDU' welcomes and celebrates people with unique stories by providing an inclusive and flexible learning environment to help them build our new world. For our first recruitment campaign, this came to life through a series of films, OOH, press, radio, digital display and social. Each piece of creative focuses on one of our hero talent - real CDU students or graduates - who share their challenges or barriers in starting to study and how CDU helped them. Some examples include: Talea, a resilient mother of three who decides change her career from hairdressing to midwifery. Beth, a passionate Indigenous law student who's the first in her family to go to university. Yron, turning his passion for renewable energy into a career.\n\nAlongside the campaign, the creative platform was also pulled through the university's visual identity to create a entirely new look and feel that could be used by all departments moving forward. Our internal design team created a new design system with two key elements. The spotlight, a device used to highlight our students in their environment; and a graphic device using the petals to represent the diverse group of people we're bringing together by using multiple colours from our secondary palette.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "slug": {
+          "en-US": "charles-darwin-university"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "724Sknhb6Y6Cj1kvfZX8t5",
+        "type": "Entry",
+        "createdAt": "2020-02-23T02:47:37.068Z",
+        "updatedAt": "2020-02-23T03:26:02.122Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 16,
+        "publishedAt": "2020-02-23T03:26:02.122Z",
+        "firstPublishedAt": "2020-02-23T02:51:37.385Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 17,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "banner"
+          }
+        }
+      },
+      "fields": {
+        "heading": {
+          "en-US": "Recruiting the next era of students"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "72LS3J7ZKYxNJG5fQlNYRk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "sfd4BZfX4Lfh9FVsTCWrk",
+        "type": "Entry",
+        "createdAt": "2020-02-23T03:31:39.226Z",
+        "updatedAt": "2020-02-23T03:51:07.046Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 181,
+        "publishedAt": "2020-02-23T03:51:07.046Z",
+        "firstPublishedAt": "2020-02-23T03:41:50.361Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 182,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "vine"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Natural Cracker Company"
+        },
+        "subtitle": {
+          "en-US": "Hidden Helpers"
+        },
+        "category": {
+          "en-US": "work"
+        },
+        "description": {
+          "en-US": "Cutting through in a busy category, to launch the Natural Chip Company's new crackers line with something new and impactful."
+        },
+        "hero": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1Pgdr65lj7CwjNrzIjxCLd"
+            }
+          }
+        },
+        "pods": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "mCT4am1vQaQnhDMe98aBL"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7lrRueF7ynavj0vsyK0Jgg"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1scza5TLHMp1eJlGNX7alf"
+              }
+            }
+          ]
+        },
+        "story": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Challenge",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Launching a new cracker product in a busy category with big players dominating market share, our challenge was to leverage the brand equity that had been built in previous Natural Chip Company campaigns yet create something new and impactful to launch Natural Cracker Company crackers and not have it mistaken for another Natural Chip Company campaign.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Strategy",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Real Ingredients mean Real Flavour.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Idea",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Following on from our previous Natural Chip Co. campaign we brought back some trusted friends from our previous Natural Chip Company campaign and some new characters to show how nature does most of the work to create a delicious snack. To sign post that something new had happened, we employed an evolved photorealistic 3D CGI visual technique to bring the crackers' natural ingredients to life and dial up the \"Awwww-factor\" of the animals transporting the ingredients to the factory to create a beautiful memorable and distinctive campaign.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "slug": {
+          "en-US": "the-natural-cracker-company"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "1Pgdr65lj7CwjNrzIjxCLd",
+        "type": "Entry",
+        "createdAt": "2020-02-23T03:37:58.799Z",
+        "updatedAt": "2020-02-23T03:39:46.132Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2020-02-23T03:39:46.132Z",
+        "firstPublishedAt": "2020-02-23T03:39:46.132Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "banner"
+          }
+        }
+      },
+      "fields": {
+        "heading": {
+          "en-US": "Great tasting crackers, naturally."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1Ezo1T9Og3sLKf46GNOxz0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "1scza5TLHMp1eJlGNX7alf",
+        "type": "Entry",
+        "createdAt": "2020-02-23T03:44:32.869Z",
+        "updatedAt": "2020-02-23T03:46:45.479Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 90,
+        "publishedAt": "2020-02-23T03:46:45.479Z",
+        "firstPublishedAt": "2020-02-23T03:46:45.479Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 91,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "image"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Bees from the Natural Cracker Company TVC"
+        },
+        "file": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4wTQggDFOICxxSOD91QuS1"
+            }
+          }
+        },
+        "alt": {
+          "en-US": "A pair of CGI bees carrying honey in gumnut containers."
+        },
+        "caption": {
+          "en-US": "These CGI bees melted all of our hearts."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "mCT4am1vQaQnhDMe98aBL",
+        "type": "Entry",
+        "createdAt": "2020-02-23T03:47:03.878Z",
+        "updatedAt": "2020-02-23T03:49:53.665Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 120,
+        "publishedAt": "2020-02-23T03:49:53.665Z",
+        "firstPublishedAt": "2020-02-23T03:49:53.665Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 121,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "image"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Natural Cracker Company TVC Lamb "
+        },
+        "file": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "Zl0nlXN68WF67fYrvRwAL"
+            }
+          }
+        },
+        "alt": {
+          "en-US": "An adorable CGI lamb pulls a wagon of delicious, natural ingredients."
+        },
+        "caption": {
+          "en-US": "This adorable CGI lamb was eventually sold to butcher and eaten at a CGI BBQ."
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "79V0KmR2Z6F6lKkUGePUEs",
+        "type": "Entry",
+        "createdAt": "2020-02-23T03:52:11.520Z",
+        "updatedAt": "2020-02-23T03:55:43.807Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 36,
+        "publishedAt": "2020-02-23T03:55:43.807Z",
+        "firstPublishedAt": "2020-02-23T03:55:43.807Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 37,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Why is Augmented Reality so boring?"
+        },
+        "slug": {
+          "en-US": "why-is-augmented-reality-so-boring"
+        },
+        "author": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "62bVTOM18Jf298LFF6g5c0"
+              }
+            }
+          ]
+        },
+        "description": {
+          "en-US": "Why are there so few examples of mind-blowing AR? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: Why didn’t I think of that?"
+        },
+        "hero": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4lJGZ2PF1cG8yq4Au8SFek"
+            }
+          }
+        },
+        "story": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The history of augmented reality (AR) bursts at the seams with heroic ambition and spectacular failure, and remarkably few actual successes. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "It’s hard to think of a contemporary technology more mired in hyperbole and disappointment. Beyond the megahit, Pokemon Go, and a slew of imitators that followed in its wake, AR is most commonly associated with notorious flops like Magic Leap, Microsoft Hololens and Google Glass.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And yet there’s something about augmented reality that keeps some of the tech industry’s biggest and brightest coming back for one more try.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Google, Facebook, Microsoft, Apple and Adobe are all investing millions of dollars in AR hardware and software. Every major 2019 smartphone boasts custom chipsets, cameras and software to support AR content. AR filters feature prominently on leading social networks and chat apps.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "And AR creation is no longer the exclusive domain of programmers and 3D exports. Facebook’s Spark AR Design Studio provides a drag-and-drop interface to design custom AR effects and publish them directly to Facebook social networks, chat apps and even their advertising platform, without writing a single line of code.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "But while the technology has matured, our creative thinking has not. The majority of AR content on iOS and Android app stores is unremarkable at best, derivative or gimmicky at worst.   Creative works built on new technology are largely shaped by the medium’s form, as we explore ‘what can this technology do?’.  But to fully realise a medium’s creative potential, we have to reach a point where the medium isn’t driving the work, it’s an essential part of it.   ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Augmented reality places a unique vehicle for creative expression at the fingertips of 90 per cent of Australians consumers. So why are there so few examples of game-changing AR executions? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: Why didn’t I think of that?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Right Tools, Right Job  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "If we intend to craft exceptional work, we must apply a deep understanding of the relationship between the idea and the form of its expression. Whether for a TVC, a billboard, a full-page magazine ad, a microsite or neon sign, the work and its vehicle for transmission are inextricable. Each format has its own strengths and limitations, cultural associations and context of use. Each has collections of attributes contributing a unique functional and emotional texture to the messages they carry.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Of course, nobody’s arguing any of these attributes make one medium fundamentally better or worse than another. The sound and movement of video doesn’t automatically make it superior to the static composition of print. But we need to understand each medium and their unique qualities, the way a sculptor understands the flow of grain through timber or tensile strength of bronze.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "AR exists at the intersection between reality and unreality; perception and truth. These are rich territories for creativity, storytelling, engagement and persuasion. They run so much deeper than the current stock novelty AR ‘experiences’ that flood the app stores.  \nJust as we understand photography and film and text can each be harnessed to tell certain types of stories in particular ways, we need to approach AR by thinking about its own attributes, and how they might be used to serve our creative ideas.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What next?  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Well, that’s up to you. Thinking about technology platforms as raw materials for creative expression, rather than a set of functional specifications, gives our ideas scope to take flight in unexpected and exciting new directions. \nAs a starting point, here are three aspects of augmented reality we think are particularly intriguing starting points for creative expression and communication. There are no recipes for success here, just a handful of raw ingredients. What happens next is up to you.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Immediacy and presence",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Almost every channel at our disposal connects with an audience despite whatever else may be happening around them. They can only succeed by drawing people away from their immediate surroundings.   \nBy contrast, AR is unique. Rather than shutting you off from the outside world, AR directly connects you with the world around you and invites you to see things in a different light. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Active and responsive",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "AR offers compelling scope for extended engagement. The mirage-like nature of AR effects can be strong hooks for interaction, while the ability to create content which is responsive to people, places and objects in the immediate has significant potential as a device for repeat engagement.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Concealment and revelation",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "AR is particularly suited to themes of discovery and exploration. It offers tantalising creative opportunity for exploring ideas related to alternate viewpoints, more than meets the eye, reality and unreality, distance and intimacy.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What AR you waiting for?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "In the early days of motion picture cameras, filmmakers simply set the camera on a tripod and pointed it at a stage, statically capturing whatever action unfolded in front of the lens. Modern cinema fundamentals, such as the moving camera, special effects and illusion, creating meaning with juxtaposition and continuity editing, only emerged slowly as filmmakers grew to understand the unique attributes moving pictures afforded.  ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Today’s augmented reality is a movie camera on a tripod, pointed at a stage. It’s time to pick it up.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
         }
       }
     }
@@ -8629,6 +9865,350 @@
               }
             },
             "fileName": "avataaars (7).png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "72LS3J7ZKYxNJG5fQlNYRk",
+        "type": "Asset",
+        "createdAt": "2020-02-23T02:49:27.471Z",
+        "updatedAt": "2020-02-23T02:50:48.113Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 24,
+        "publishedAt": "2020-02-23T02:50:48.113Z",
+        "firstPublishedAt": "2020-02-23T02:50:48.113Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 25,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "CDU 2020 Hero"
+        },
+        "description": {
+          "en-US": "Campaign examples, stitched into a hero image."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/25wcs8ynb5r9/72LS3J7ZKYxNJG5fQlNYRk/521db9643b2b05eb4f8a303bb3adce7a/cdu_2020_hero.jpg",
+            "details": {
+              "size": 133561,
+              "image": {
+                "width": 1440,
+                "height": 810
+              }
+            },
+            "fileName": "cdu_2020_hero.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "4GSM9aFYyZ2vyODDU8RM5J",
+        "type": "Asset",
+        "createdAt": "2020-02-23T03:28:15.846Z",
+        "updatedAt": "2020-02-23T03:29:09.773Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 54,
+        "publishedAt": "2020-02-23T03:29:09.773Z",
+        "firstPublishedAt": "2020-02-23T03:29:09.773Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 55,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "CDU 2020 Examples"
+        },
+        "description": {
+          "en-US": "Collage of work examples from the CDU 2020 project."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/25wcs8ynb5r9/4GSM9aFYyZ2vyODDU8RM5J/8ce7da55abf33d2a963b75b78a078690/CDU-inline.jpg",
+            "details": {
+              "size": 98621,
+              "image": {
+                "width": 1440,
+                "height": 810
+              }
+            },
+            "fileName": "CDU-inline.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "1Ezo1T9Og3sLKf46GNOxz0",
+        "type": "Asset",
+        "createdAt": "2020-02-23T03:38:18.136Z",
+        "updatedAt": "2020-02-23T03:39:31.451Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 48,
+        "publishedAt": "2020-02-23T03:39:31.451Z",
+        "firstPublishedAt": "2020-02-23T03:39:31.451Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 49,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Natural Crackers Launch Campaign"
+        },
+        "description": {
+          "en-US": "A screenshot from the Natural Crackers Co launch campaign."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/25wcs8ynb5r9/1Ezo1T9Og3sLKf46GNOxz0/87cf0b500c718a2e1c35815c826f8b53/natural-crackes-launch-hero.jpg",
+            "details": {
+              "size": 501620,
+              "image": {
+                "width": 1440,
+                "height": 770
+              }
+            },
+            "fileName": "natural-crackes-launch-hero.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "4wTQggDFOICxxSOD91QuS1",
+        "type": "Asset",
+        "createdAt": "2020-02-23T03:44:17.194Z",
+        "updatedAt": "2020-02-23T03:46:52.805Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-02-23T03:46:52.805Z",
+        "firstPublishedAt": "2020-02-23T03:46:52.805Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "cracker-co-bees"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/25wcs8ynb5r9/4wTQggDFOICxxSOD91QuS1/62854c5a4551f8f772c63b91d5519563/cracker-co-bees.png",
+            "details": {
+              "size": 390188,
+              "image": {
+                "width": 720,
+                "height": 420
+              }
+            },
+            "fileName": "cracker-co-bees.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "Zl0nlXN68WF67fYrvRwAL",
+        "type": "Asset",
+        "createdAt": "2020-02-23T03:44:17.726Z",
+        "updatedAt": "2020-02-23T03:50:01.002Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2020-02-23T03:50:01.002Z",
+        "firstPublishedAt": "2020-02-23T03:50:01.002Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "cracker-co-lamb"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/25wcs8ynb5r9/Zl0nlXN68WF67fYrvRwAL/8a7af43adf09b4c5fa6b8fbcea656056/cracker-co-lamb.png",
+            "details": {
+              "size": 579624,
+              "image": {
+                "width": 720,
+                "height": 420
+              }
+            },
+            "fileName": "cracker-co-lamb.png",
             "contentType": "image/png"
           }
         }
