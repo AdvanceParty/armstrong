@@ -883,160 +883,6 @@
             "id": "25wcs8ynb5r9"
           }
         },
-        "id": "page",
-        "type": "ContentType",
-        "createdAt": "2020-02-20T12:03:35.772Z",
-        "updatedAt": "2020-02-23T03:13:37.865Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-02-23T03:13:37.865Z",
-        "firstPublishedAt": "2020-02-20T12:03:37.563Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 3,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Page",
-      "description": "Plain template with rich text content field for general website pages (rather than vine bundles)",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "description",
-          "name": "Description",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "hero",
-          "name": "Hero",
-          "type": "Link",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "linkContentType": [
-                "banner"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Entry"
-        },
-        {
-          "id": "slug",
-          "name": "Slug",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "content",
-          "name": "Content",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "nodes": {
-                "entry-hyperlink": [
-                  {
-                    "linkContentType": [
-                      "article",
-                      "page",
-                      "vine"
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "enabledMarks": [
-                "bold",
-                "italic"
-              ],
-              "message": "Only bold and italic marks are allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "heading-2",
-                "heading-3",
-                "heading-4",
-                "heading-5",
-                "heading-6",
-                "ordered-list",
-                "unordered-list",
-                "blockquote",
-                "entry-hyperlink",
-                "hr",
-                "hyperlink",
-                "embedded-asset-block"
-              ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
         "id": "link",
         "type": "ContentType",
         "createdAt": "2020-02-22T01:44:03.286Z",
@@ -2323,6 +2169,160 @@
           "omitted": false
         }
       ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "simplePage",
+        "type": "ContentType",
+        "createdAt": "2020-02-23T05:25:39.218Z",
+        "updatedAt": "2020-02-23T05:25:40.186Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-02-23T05:25:40.186Z",
+        "firstPublishedAt": "2020-02-23T05:25:40.186Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Simple Page",
+      "description": "Plain template with rich text content field for general website pages (rather than vine bundles)",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "hero",
+          "name": "Hero",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "banner"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "nodes": {
+                "entry-hyperlink": [
+                  {
+                    "linkContentType": [
+                      "article",
+                      "page",
+                      "vine"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "blockquote",
+                "entry-hyperlink",
+                "hr",
+                "hyperlink",
+                "embedded-asset-block"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
     }
   ],
   "editorInterfaces": [
@@ -2793,77 +2793,6 @@
             "helpText": "99.99% of the time this will be a URL."
           },
           "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 6,
-        "createdAt": "2020-02-20T12:03:37.634Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-23T03:13:39.877Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "page",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "description",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "hero",
-          "widgetId": "entryLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "slug",
-          "widgetId": "slugEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "content",
-          "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -3554,6 +3483,77 @@
         },
         {
           "fieldId": "attribution",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-02-23T05:25:40.263Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-23T05:25:41.315Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "simplePage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "hero",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }

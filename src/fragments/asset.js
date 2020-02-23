@@ -24,12 +24,8 @@ import { graphql } from "gatsby"
 // `
 
 // export const ImageFluid = graphql`
-//   fragment ImageFluid on ContentfulImage {
-//     alt
-//     caption
+//   fragment ImageFluid on ContentfulAsset {
 //     file {
-//       title
-//       description
 //       fluid {
 //         ...GatsbyContentfulFluid
 //       }

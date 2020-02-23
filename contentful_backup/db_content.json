@@ -883,160 +883,6 @@
             "id": "25wcs8ynb5r9"
           }
         },
-        "id": "page",
-        "type": "ContentType",
-        "createdAt": "2020-02-20T12:03:35.772Z",
-        "updatedAt": "2020-02-23T03:13:37.865Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 5,
-        "publishedAt": "2020-02-23T03:13:37.865Z",
-        "firstPublishedAt": "2020-02-20T12:03:37.563Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 3,
-        "version": 6,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Page",
-      "description": "Plain template with rich text content field for general website pages (rather than vine bundles)",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "description",
-          "name": "Description",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "hero",
-          "name": "Hero",
-          "type": "Link",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "linkContentType": [
-                "banner"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Entry"
-        },
-        {
-          "id": "slug",
-          "name": "Slug",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "content",
-          "name": "Content",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "nodes": {
-                "entry-hyperlink": [
-                  {
-                    "linkContentType": [
-                      "article",
-                      "page",
-                      "vine"
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "enabledMarks": [
-                "bold",
-                "italic"
-              ],
-              "message": "Only bold and italic marks are allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "heading-2",
-                "heading-3",
-                "heading-4",
-                "heading-5",
-                "heading-6",
-                "ordered-list",
-                "unordered-list",
-                "blockquote",
-                "entry-hyperlink",
-                "hr",
-                "hyperlink",
-                "embedded-asset-block"
-              ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
         "id": "link",
         "type": "ContentType",
         "createdAt": "2020-02-22T01:44:03.286Z",
@@ -2323,6 +2169,160 @@
           "omitted": false
         }
       ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "simplePage",
+        "type": "ContentType",
+        "createdAt": "2020-02-23T05:25:39.218Z",
+        "updatedAt": "2020-02-23T05:25:40.186Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-02-23T05:25:40.186Z",
+        "firstPublishedAt": "2020-02-23T05:25:40.186Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Simple Page",
+      "description": "Plain template with rich text content field for general website pages (rather than vine bundles)",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "hero",
+          "name": "Hero",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "banner"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "nodes": {
+                "entry-hyperlink": [
+                  {
+                    "linkContentType": [
+                      "article",
+                      "page",
+                      "vine"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ],
+              "message": "Only bold and italic marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "blockquote",
+                "entry-hyperlink",
+                "hr",
+                "hyperlink",
+                "embedded-asset-block"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, link to Url, and asset nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
     }
   ],
   "editorInterfaces": [
@@ -2793,77 +2793,6 @@
             "helpText": "99.99% of the time this will be a URL."
           },
           "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 6,
-        "createdAt": "2020-02-20T12:03:37.634Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-23T03:13:39.877Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "page",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "description",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "hero",
-          "widgetId": "entryLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "slug",
-          "widgetId": "slugEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "content",
-          "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -3554,6 +3483,77 @@
         },
         {
           "fieldId": "attribution",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "25wcs8ynb5r9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-02-23T05:25:40.263Z",
+        "createdBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-02-23T05:25:41.315Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0cVYtZksgN3GcWiP83xwN5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "simplePage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "hero",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
@@ -4677,568 +4677,6 @@
               }
             }
           ]
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "2t3mBtWuGPdLOVZtbcHxWb",
-        "type": "Entry",
-        "createdAt": "2020-02-21T11:30:25.824Z",
-        "updatedAt": "2020-02-23T02:39:07.836Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 123,
-        "publishedAt": "2020-02-23T02:39:07.836Z",
-        "firstPublishedAt": "2020-02-23T02:39:07.836Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 124,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "vine"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Why is Augmented Reality so boring?"
-        },
-        "category": {
-          "en-US": "work"
-        },
-        "description": {
-          "en-US": "Why are there so few examples of mind-blowing AR? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: Why didn’t I think of that?"
-        },
-        "hero": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "4lJGZ2PF1cG8yq4Au8SFek"
-            }
-          }
-        },
-        "story": {
-          "en-US": {
-            "data": {
-            },
-            "content": [
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "The history of augmented reality (AR) bursts at the seams with heroic ambition and spectacular failure, and remarkably few actual successes.   ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "It’s hard to think of a contemporary technology more mired in hyperbole and disappointment. Beyond the megahit, ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "italic"
-                      }
-                    ],
-                    "value": "Pokemon Go",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": ", and a slew of imitators that followed in its wake, AR is most commonly associated with notorious flops like Magic Leap, Microsoft Hololens and Google Glass.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "And yet there’s something about augmented reality that keeps some of the tech industry’s biggest and brightest coming back for one more try.   ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Google, Facebook, Microsoft, Apple and Adobe are all investing millions of dollars in AR hardware and software. Every major 2019 smartphone boasts custom chipsets, cameras and software to support AR content. AR filters feature prominently on leading social networks and chat apps.   ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "And AR creation is no longer the exclusive domain of programmers and 3D exports. Facebook’s Spark AR Design Studio provides a drag-and-drop interface to design custom AR effects and publish them directly to Facebook social networks, chat apps and even their advertising platform, without writing a single line of code.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "But while the technology has matured, our creative thinking has not. The majority of AR content on iOS and Android app stores is unremarkable at best, derivative or gimmicky at worst.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Creative works built on new technology are largely shaped by the medium’s form, as we explore ‘what can this technology do?’.  But to fully realise a medium’s creative potential, we have to reach a point where the medium isn’t driving the work, it’s an essential part of it.   ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Augmented reality places a unique vehicle for creative expression at the fingertips of 90 per cent of Australians consumers. So why are there so few examples of game-changing AR executions? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "italic"
-                      }
-                    ],
-                    "value": "Why didn’t I think of that?",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "\n",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Right Tools, Right Job  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-4"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "If we intend to craft exceptional work, we must apply a deep understanding of the relationship between the idea and the form of its expression. Whether for a TVC, a billboard, a full-page magazine ad, a microsite or neon sign, the work and its vehicle for transmission are inextricable. Each format has its own strengths and limitations, cultural associations and context of use. Each has collections of attributes contributing a unique functional and emotional texture to the messages they carry.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Of course, nobody’s arguing any of these attributes make one medium fundamentally better or worse than another. The sound and movement of video doesn’t automatically make it superior to the static composition of print. But we need to understand each medium and their unique qualities, the way a sculptor understands the flow of grain through timber or tensile strength of bronze.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "AR exists at the intersection between reality and unreality; perception and truth. These are rich territories for creativity, storytelling, engagement and persuasion. They run so much deeper than the current stock novelty AR ‘experiences’ that flood the app stores.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Just as we understand photography and film and text can each be harnessed to tell certain types of stories in particular ways, we need to approach AR by thinking about its own attributes, and how they might be used to serve our creative ideas.\n",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "What next?  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-4"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Well, that’s up to you. Thinking about technology platforms as raw materials for creative expression, rather than a set of functional specifications, gives our ideas scope to take flight in unexpected and exciting new directions. ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "As a starting point, here are three aspects of augmented reality we think are particularly intriguing starting points for creative expression and communication. There are no recipes for success here, just a handful of raw ingredients. What happens next is up to you.",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "\n",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Immediacy and presence",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-4"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Almost every channel at our disposal connects with an audience despite whatever else may be happening around them. They can only succeed by drawing people away from their immediate surroundings.   ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "By contrast, AR is unique. Rather than shutting you off from the outside world, AR directly connects you with the world around you and invites you to see things in a different light. ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "\n",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Active and responsive",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-4"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "AR offers compelling scope for extended engagement. The mirage-like nature of AR effects can be strong hooks for interaction, while the ability to create content which is responsive to people, places and objects in the immediate has significant potential as a device for repeat engagement.",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "\n",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Concealment and revelation",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-4"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "AR is particularly suited to themes of discovery and exploration. It offers tantalising creative opportunity for exploring ideas related to alternate viewpoints, more than meets the eye, reality and unreality, distance and intimacy.",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                      {
-                        "type": "bold"
-                      }
-                    ],
-                    "value": "\n",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "What AR you waiting for?",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "heading-4"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "In the early days of motion picture cameras, filmmakers simply set the camera on a tripod and pointed it at a stage, statically capturing whatever action unfolded in front of the lens. Modern cinema fundamentals, such as the moving camera, special effects and illusion, creating meaning with juxtaposition and continuity editing, only emerged slowly as filmmakers grew to understand the unique attributes moving pictures afforded.  ",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Today’s augmented reality is a movie camera on a tripod, pointed at a stage. It’s time to pick it up.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              }
-            ],
-            "nodeType": "document"
-          }
-        },
-        "slug": {
-          "en-US": "why-is-augmented-reality-so-boring"
         }
       }
     },
