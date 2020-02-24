@@ -3,6 +3,18 @@ html {
   --col-bg-dark: #333;
   --col-bodytext: rgba(60, 60, 60, 0.8);
   --col-bodytext-invert: rgba(255, 255, 255, 0.8);
+  --col-herotext: #fff;
   --col-heading: #333344;
   --col-subheading: #333344;
+
+  --gradient-hero-overlay: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.4) 75%,
+    rgba(0, 0, 0, 0.5) 85%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+
+  --shadow-hero-text: 0.03em 0.03em 0.15em rgba(0, 0, 0, 0.75);
 }

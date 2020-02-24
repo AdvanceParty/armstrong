@@ -9,9 +9,11 @@ export default ({ heading, image, richTextContent }) => {
 
   return (
     <section className="hero">
-      {heading ? <h3>{heading}</h3> : ""}
-      {richTextContent ? RichText(richTextContent) : ""}
-      {image ? <Img fluid={image.fluid} /> : ""}
+      <div className="content">
+        {heading ? <h3>{heading}</h3> : ""}
+        {richTextContent ? RichText(richTextContent) : ""}
+      </div>
+      <div className="image">{image ? <Img fluid={image.fluid} /> : ""}</div>
     </section>
   )
 }

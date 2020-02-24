@@ -8,12 +8,14 @@ export default ({ fullName, jobTitle, joined, office, image, bioRichText }) => {
   }`
 
   return (
-    <>
+    <section className="bio">
+      <div className="image">
+        {image && image.fluid ? <Img fluid={image.fluid} /> : ""}
+      </div>
       <h3>{fullName}</h3>
       {subtitle ? <p>{subtitle}</p> : ""}
       {joined ? <p>Royal since {joined}</p> : ""}
-      {image && image.fluid ? <Img fluid={image.fluid} /> : ""}
       {RichText(bioRichText)}
-    </>
+    </section>
   )
 }

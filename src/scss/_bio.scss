@@ -1,0 +1,20 @@
+.bio {
+  display: grid;
+  grid-template-columns: minmax(100px, 200px) auto;
+
+  row-gap: 1em;
+  column-gap: 1em;
+
+  margin-bottom: 4em;
+
+  > * {
+    grid-column-start: 2;
+    margin: 0;
+  }
+
+  .image {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+}
