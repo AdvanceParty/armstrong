@@ -1,15 +1,16 @@
 import React from "react"
 import RichText from "../components/RichText"
+import Layout from "../components/layout"
 
 export default ({ data }) => {
-  const { title, subtitle, description, story } = data.contentfulVine
+  const { title, subtitle, description, richTextContent } = data.contentfulVine
   return (
-    <>
+    <Layout>
       <h1>{title}</h1>
       <h5>{subtitle}</h5>
       <blockquote>{description}</blockquote>
-      <div>{RichText(story)}</div>
-    </>
+      <div>{RichText(richTextContent)}</div>
+    </Layout>
   )
 }
 
@@ -20,7 +21,7 @@ export const query = graphql`
       subtitle
       description
       category
-      story {
+      richTextContent {
         json
       }
     }

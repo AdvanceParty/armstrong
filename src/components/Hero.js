@@ -2,12 +2,16 @@ import React from "react"
 import Img from "gatsby-image"
 import RichText from "./RichText"
 
-export default ({ heading, image, body }) => {
+export default ({ heading, image, richTextContent }) => {
+  // const h = heading ? <h3>{heading}</h3> : null;
+  // const i = image ? <Img fluid={image.fluid} /> : null;
+  // const rtc = richTextContent ? {RichText(richTextContent)} : null;
+
   return (
     <section className="hero">
-      <h3>{heading}</h3>
-      {RichText(body)}
-      <Img fluid={image.fluid} />
+      {heading ? <h3>{heading}</h3> : ""}
+      {richTextContent ? RichText(richTextContent) : ""}
+      {image ? <Img fluid={image.fluid} /> : ""}
     </section>
   )
 }

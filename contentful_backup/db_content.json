@@ -12,7 +12,7 @@
         "id": "image",
         "type": "ContentType",
         "createdAt": "2020-02-17T06:41:41.593Z",
-        "updatedAt": "2020-02-23T03:11:03.152Z",
+        "updatedAt": "2020-02-24T07:00:39.595Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 33,
-        "publishedAt": "2020-02-23T03:11:03.152Z",
+        "publishedVersion": 39,
+        "publishedAt": "2020-02-24T07:00:39.595Z",
         "firstPublishedAt": "2020-02-17T06:41:42.284Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 17,
-        "version": 34,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -68,7 +68,7 @@
           "omitted": false
         },
         {
-          "id": "file",
+          "id": "image",
           "name": "File",
           "type": "Link",
           "localized": false,
@@ -110,119 +110,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "attribution",
-          "name": "Attribution",
-          "type": "RichText",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            },
-            {
-              "nodes": {
-              }
-            },
-            {
-              "enabledMarks": [
-              ],
-              "message": "Marks are not allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "hyperlink"
-              ],
-              "message": "Only link to Url nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "callout",
-        "type": "ContentType",
-        "createdAt": "2020-02-17T06:46:36.553Z",
-        "updatedAt": "2020-02-23T03:14:52.388Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 10,
-        "publishedAt": "2020-02-23T03:14:52.388Z",
-        "firstPublishedAt": "2020-02-17T06:47:08.709Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 5,
-        "version": 11,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": null,
-      "name": "Callout",
-      "description": "Pull quotes, \"look at me\" text. Not intended to be used as a banner or other \"feature\" content type.",
-      "fields": [
-        {
-          "id": "content",
-          "name": "Content",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "nodes": {
-              }
-            },
-            {
-              "enabledMarks": [
-                "bold",
-                "italic"
-              ],
-              "message": "Only bold and italic marks are allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "heading-2",
-                "heading-3"
-              ],
-              "message": "Only heading 2 and heading 3 nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
         }
       ]
     },
@@ -238,7 +125,7 @@
         "id": "quote",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:13:11.263Z",
-        "updatedAt": "2020-02-18T01:39:55.219Z",
+        "updatedAt": "2020-02-24T04:00:40.806Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -246,8 +133,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2020-02-18T01:39:55.219Z",
+        "publishedVersion": 17,
+        "publishedAt": "2020-02-24T04:00:40.806Z",
         "firstPublishedAt": "2020-02-17T11:13:12.811Z",
         "createdBy": {
           "sys": {
@@ -263,8 +150,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 4,
-        "version": 8,
+        "publishedCounter": 9,
+        "version": 18,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -278,7 +165,7 @@
       "description": "Fields for content and attribution, so you can drop a pithy quote and tell people where it came from.",
       "fields": [
         {
-          "id": "content",
+          "id": "richTextContent",
           "name": "Content",
           "type": "RichText",
           "localized": false,
@@ -446,7 +333,7 @@
         "id": "banner",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:27:50.553Z",
-        "updatedAt": "2020-02-23T02:53:24.837Z",
+        "updatedAt": "2020-02-24T03:36:18.548Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -454,8 +341,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2020-02-23T02:53:24.837Z",
+        "publishedVersion": 39,
+        "publishedAt": "2020-02-24T03:36:18.548Z",
         "firstPublishedAt": "2020-02-17T11:27:51.377Z",
         "createdBy": {
           "sys": {
@@ -471,8 +358,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 15,
-        "version": 30,
+        "publishedCounter": 20,
+        "version": 40,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -502,8 +389,8 @@
           "omitted": false
         },
         {
-          "id": "body",
-          "name": "Body",
+          "id": "richTextContent",
+          "name": "Text Content",
           "type": "RichText",
           "localized": false,
           "required": false,
@@ -564,7 +451,7 @@
         "id": "vine",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:02:09.564Z",
-        "updatedAt": "2020-02-23T10:27:17.237Z",
+        "updatedAt": "2020-02-24T03:15:33.270Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -572,8 +459,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 45,
-        "publishedAt": "2020-02-23T10:27:17.237Z",
+        "publishedVersion": 53,
+        "publishedAt": "2020-02-24T03:15:33.270Z",
         "firstPublishedAt": "2020-02-20T11:02:10.235Z",
         "createdBy": {
           "sys": {
@@ -589,8 +476,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 23,
-        "version": 46,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -710,7 +597,7 @@
           }
         },
         {
-          "id": "story",
+          "id": "richTextContent",
           "name": "Story",
           "type": "RichText",
           "localized": false,
@@ -1107,7 +994,7 @@
         "id": "video",
         "type": "ContentType",
         "createdAt": "2020-02-22T02:38:31.224Z",
-        "updatedAt": "2020-02-23T02:58:21.533Z",
+        "updatedAt": "2020-02-24T02:58:19.255Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1115,8 +1002,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 3,
-        "publishedAt": "2020-02-23T02:58:21.533Z",
+        "publishedVersion": 7,
+        "publishedAt": "2020-02-24T02:58:19.255Z",
         "firstPublishedAt": "2020-02-22T02:38:32.127Z",
         "createdBy": {
           "sys": {
@@ -1132,8 +1019,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 2,
-        "version": 4,
+        "publishedCounter": 4,
+        "version": 8,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1205,37 +1092,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "attribution",
-          "name": "Attribution",
-          "type": "RichText",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            },
-            {
-              "nodes": {
-              }
-            },
-            {
-              "enabledMarks": [
-              ],
-              "message": "Marks are not allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "hyperlink"
-              ],
-              "message": "Only link to Url nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
         }
       ]
     },
@@ -1251,7 +1107,7 @@
         "id": "royal",
         "type": "ContentType",
         "createdAt": "2020-02-22T05:59:57.166Z",
-        "updatedAt": "2020-02-23T03:02:04.823Z",
+        "updatedAt": "2020-02-24T05:48:56.163Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1259,8 +1115,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 17,
-        "publishedAt": "2020-02-23T03:02:04.823Z",
+        "publishedVersion": 27,
+        "publishedAt": "2020-02-24T05:48:56.163Z",
         "firstPublishedAt": "2020-02-22T05:59:58.133Z",
         "createdBy": {
           "sys": {
@@ -1276,8 +1132,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 9,
-        "version": 18,
+        "publishedCounter": 14,
+        "version": 28,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1286,12 +1142,12 @@
           }
         }
       },
-      "displayField": "fullname",
+      "displayField": "fullName",
       "name": "Royal",
       "description": "A member of our very own Royals family.",
       "fields": [
         {
-          "id": "fullname",
+          "id": "fullName",
           "name": "Full Name",
           "type": "Symbol",
           "localized": false,
@@ -1307,7 +1163,7 @@
           "omitted": false
         },
         {
-          "id": "name",
+          "id": "preferredName",
           "name": "Preferred Name",
           "type": "Symbol",
           "localized": false,
@@ -1370,7 +1226,7 @@
           "linkType": "Entry"
         },
         {
-          "id": "bio",
+          "id": "bioRichText",
           "name": "Bio",
           "type": "RichText",
           "localized": false,
@@ -1434,7 +1290,7 @@
         "id": "group",
         "type": "ContentType",
         "createdAt": "2020-02-22T23:58:58.637Z",
-        "updatedAt": "2020-02-22T23:59:00.059Z",
+        "updatedAt": "2020-02-24T03:04:37.311Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1442,8 +1298,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2020-02-22T23:59:00.059Z",
+        "publishedVersion": 9,
+        "publishedAt": "2020-02-24T03:04:37.311Z",
         "firstPublishedAt": "2020-02-22T23:59:00.059Z",
         "createdBy": {
           "sys": {
@@ -1459,8 +1315,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 5,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1504,7 +1360,7 @@
           "omitted": false
         },
         {
-          "id": "description",
+          "id": "richTextContent",
           "name": "Description",
           "type": "RichText",
           "localized": false,
@@ -1670,7 +1526,7 @@
         "id": "article",
         "type": "ContentType",
         "createdAt": "2020-02-23T01:53:19.110Z",
-        "updatedAt": "2020-02-23T10:26:13.815Z",
+        "updatedAt": "2020-02-24T03:11:45.377Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1678,8 +1534,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 19,
-        "publishedAt": "2020-02-23T10:26:13.815Z",
+        "publishedVersion": 31,
+        "publishedAt": "2020-02-24T03:11:45.377Z",
         "firstPublishedAt": "2020-02-23T01:53:20.085Z",
         "createdBy": {
           "sys": {
@@ -1695,8 +1551,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 10,
-        "version": 20,
+        "publishedCounter": 16,
+        "version": 32,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1727,6 +1583,22 @@
           "localized": false,
           "required": false,
           "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "max": 256
+              }
+            }
           ],
           "disabled": false,
           "omitted": false
@@ -1768,22 +1640,6 @@
           }
         },
         {
-          "id": "description",
-          "name": "Description",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "size": {
-                "max": 256
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
           "id": "hero",
           "name": "Hero",
           "type": "Link",
@@ -1801,8 +1657,8 @@
           "linkType": "Entry"
         },
         {
-          "id": "story",
-          "name": "Story",
+          "id": "richTextContent",
+          "name": "Main Content",
           "type": "RichText",
           "localized": false,
           "required": true,
@@ -1882,7 +1738,7 @@
         "id": "office",
         "type": "ContentType",
         "createdAt": "2020-02-23T02:01:35.347Z",
-        "updatedAt": "2020-02-23T03:25:12.322Z",
+        "updatedAt": "2020-02-24T02:54:27.524Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1890,8 +1746,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-02-23T03:25:12.322Z",
+        "publishedVersion": 15,
+        "publishedAt": "2020-02-24T02:54:27.524Z",
         "firstPublishedAt": "2020-02-23T02:01:36.490Z",
         "createdBy": {
           "sys": {
@@ -1907,8 +1763,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 8,
+        "version": 16,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2051,23 +1907,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "picture",
-          "name": "Picture",
-          "type": "Link",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "linkContentType": [
-                "image"
-              ]
-            }
-          ],
-          "disabled": true,
-          "omitted": true,
-          "linkType": "Entry"
         }
       ]
     },
@@ -2083,7 +1922,7 @@
         "id": "audio",
         "type": "ContentType",
         "createdAt": "2020-02-23T02:58:45.186Z",
-        "updatedAt": "2020-02-23T03:00:16.852Z",
+        "updatedAt": "2020-02-24T02:48:25.853Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2091,8 +1930,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2020-02-23T03:00:16.852Z",
+        "publishedVersion": 6,
+        "publishedAt": "2020-02-24T02:48:25.853Z",
         "firstPublishedAt": "2020-02-23T03:00:16.852Z",
         "createdBy": {
           "sys": {
@@ -2108,8 +1947,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 1,
-        "version": 3,
+        "publishedCounter": 3,
+        "version": 7,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2181,37 +2020,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "attribution",
-          "name": "Attribution",
-          "type": "RichText",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "size": {
-                "max": 128
-              }
-            },
-            {
-              "nodes": {
-              }
-            },
-            {
-              "enabledMarks": [
-              ],
-              "message": "Marks are not allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "hyperlink"
-              ],
-              "message": "Only link to Url nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
         }
       ]
     },
@@ -2227,7 +2035,7 @@
         "id": "simplePage",
         "type": "ContentType",
         "createdAt": "2020-02-23T05:25:39.218Z",
-        "updatedAt": "2020-02-23T10:26:46.841Z",
+        "updatedAt": "2020-02-24T03:14:20.172Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2235,8 +2043,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2020-02-23T10:26:46.841Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-02-24T03:14:20.172Z",
         "firstPublishedAt": "2020-02-23T05:25:40.186Z",
         "createdBy": {
           "sys": {
@@ -2252,8 +2060,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2320,7 +2128,7 @@
           "omitted": false
         },
         {
-          "id": "content",
+          "id": "richTextContent",
           "name": "Content",
           "type": "RichText",
           "localized": false,
@@ -2403,7 +2211,7 @@
             "linkType": "Space"
           }
         },
-        "version": 34,
+        "version": 40,
         "createdAt": "2020-02-17T06:41:42.367Z",
         "createdBy": {
           "sys": {
@@ -2412,7 +2220,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:11:05.260Z",
+        "updatedAt": "2020-02-24T07:00:41.028Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2442,7 +2250,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "file",
+          "fieldId": "image",
           "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
         },
@@ -2458,14 +2266,6 @@
           "fieldId": "caption",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "attribution",
-          "settings": {
-            "helpText": "Copyright and licensing information about the work"
-          },
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -2480,58 +2280,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
-        "createdAt": "2020-02-17T06:47:08.783Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-23T03:14:54.843Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "callout",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "content",
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 8,
+        "version": 18,
         "createdAt": "2020-02-17T11:13:12.883Z",
         "createdBy": {
           "sys": {
@@ -2540,7 +2289,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-18T01:39:57.578Z",
+        "updatedAt": "2020-02-24T04:00:42.101Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2565,7 +2314,7 @@
       },
       "controls": [
         {
-          "fieldId": "content",
+          "fieldId": "richTextContent",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         },
@@ -2651,7 +2400,7 @@
             "linkType": "Space"
           }
         },
-        "version": 30,
+        "version": 40,
         "createdAt": "2020-02-17T11:27:51.439Z",
         "createdBy": {
           "sys": {
@@ -2660,7 +2409,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T02:53:26.931Z",
+        "updatedAt": "2020-02-24T03:36:20.225Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2690,7 +2439,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "body",
+          "fieldId": "richTextContent",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         },
@@ -2712,7 +2461,7 @@
             "linkType": "Space"
           }
         },
-        "version": 46,
+        "version": 54,
         "createdAt": "2020-02-20T11:02:10.307Z",
         "createdBy": {
           "sys": {
@@ -2721,7 +2470,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T10:27:19.870Z",
+        "updatedAt": "2020-02-24T03:15:35.115Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2782,7 +2531,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "story",
+          "fieldId": "richTextContent",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         },
@@ -3005,7 +2754,7 @@
             "linkType": "Space"
           }
         },
-        "version": 4,
+        "version": 8,
         "createdAt": "2020-02-22T02:38:32.194Z",
         "createdBy": {
           "sys": {
@@ -3014,7 +2763,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T02:58:23.636Z",
+        "updatedAt": "2020-02-24T02:58:20.568Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3060,14 +2809,6 @@
           "fieldId": "caption",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "attribution",
-          "settings": {
-            "helpText": "Copyright and licensing information about the work"
-          },
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -3082,7 +2823,7 @@
             "linkType": "Space"
           }
         },
-        "version": 18,
+        "version": 28,
         "createdAt": "2020-02-22T05:59:58.215Z",
         "createdBy": {
           "sys": {
@@ -3091,7 +2832,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:02:06.924Z",
+        "updatedAt": "2020-02-24T05:48:58.736Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3116,7 +2857,7 @@
       },
       "controls": [
         {
-          "fieldId": "fullname",
+          "fieldId": "fullName",
           "settings": {
             "helpText": "The person's given and family names, in preferred order (eg English names use \"GivenName FamilyName\", while Japanese names are written as \"FamilyName GivenName\")."
           },
@@ -3124,7 +2865,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "name",
+          "fieldId": "preferredName",
           "settings": {
             "helpText": "The preferred name to use when referring to this person. Usually this will just be their given name."
           },
@@ -3151,7 +2892,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "bio",
+          "fieldId": "bioRichText",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         },
@@ -3173,7 +2914,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 10,
         "createdAt": "2020-02-22T23:59:00.131Z",
         "createdBy": {
           "sys": {
@@ -3182,7 +2923,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-22T23:59:01.809Z",
+        "updatedAt": "2020-02-24T03:04:38.584Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3220,7 +2961,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "description",
+          "fieldId": "richTextContent",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         },
@@ -3308,7 +3049,7 @@
             "linkType": "Space"
           }
         },
-        "version": 20,
+        "version": 32,
         "createdAt": "2020-02-23T01:53:20.168Z",
         "createdBy": {
           "sys": {
@@ -3317,7 +3058,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T10:26:15.914Z",
+        "updatedAt": "2020-02-24T03:11:46.739Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3352,6 +3093,14 @@
           "widgetNamespace": "builtin"
         },
         {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "Briefly summarise the main topic or contention of the article. Used primarily for SEO and social media sharing, but may also be used for content previews and other summary components."
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
           "fieldId": "slug",
           "settings": {
             "helpText": "Auto generated based on your title. Helps with SEO-friendly urls."
@@ -3368,20 +3117,12 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "description",
-          "settings": {
-            "helpText": "Briefly summarise the main topic or contention of the article. Used primarily for SEO and social media sharing, but may also be used for content previews and other summary components."
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
           "fieldId": "hero",
           "widgetId": "entryCardEditor",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "story",
+          "fieldId": "richTextContent",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
@@ -3398,7 +3139,7 @@
             "linkType": "Space"
           }
         },
-        "version": 12,
+        "version": 16,
         "createdAt": "2020-02-23T02:01:36.595Z",
         "createdBy": {
           "sys": {
@@ -3407,7 +3148,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:25:14.417Z",
+        "updatedAt": "2020-02-24T02:54:28.810Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3475,11 +3216,6 @@
           "fieldId": "phone",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "picture",
-          "widgetId": "entryCardEditor",
-          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -3494,7 +3230,7 @@
             "linkType": "Space"
           }
         },
-        "version": 2,
+        "version": 6,
         "createdAt": "2020-02-23T03:00:16.930Z",
         "createdBy": {
           "sys": {
@@ -3503,7 +3239,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T03:00:18.934Z",
+        "updatedAt": "2020-02-24T02:48:27.664Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3546,11 +3282,6 @@
           "fieldId": "caption",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "attribution",
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -3565,7 +3296,7 @@
             "linkType": "Space"
           }
         },
-        "version": 6,
+        "version": 12,
         "createdAt": "2020-02-23T05:25:40.263Z",
         "createdBy": {
           "sys": {
@@ -3574,7 +3305,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-23T10:26:48.943Z",
+        "updatedAt": "2020-02-24T03:14:21.461Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -3619,7 +3350,7 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "content",
+          "fieldId": "richTextContent",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
@@ -3682,7 +3413,7 @@
         }
       },
       "fields": {
-        "content": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -3766,7 +3497,7 @@
         }
       },
       "fields": {
-        "content": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -3850,7 +3581,7 @@
         }
       },
       "fields": {
-        "content": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -3934,7 +3665,7 @@
         }
       },
       "fields": {
-        "content": {
+        "richTextContent": {
           "en-US": {
             "nodeType": "document",
             "data": {
@@ -4018,7 +3749,7 @@
         }
       },
       "fields": {
-        "content": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -4102,7 +3833,7 @@
         }
       },
       "fields": {
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -4177,7 +3908,7 @@
         }
       },
       "fields": {
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -4252,7 +3983,7 @@
         }
       },
       "fields": {
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -4327,7 +4058,7 @@
         }
       },
       "fields": {
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -4402,7 +4133,7 @@
         }
       },
       "fields": {
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -4477,7 +4208,7 @@
         }
       },
       "fields": {
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -4560,87 +4291,6 @@
         },
         "value": {
           "en-US": "/subscribe"
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "31OBHzinpzYBXwUTabouNd",
-        "type": "Entry",
-        "createdAt": "2020-02-21T11:13:02.671Z",
-        "updatedAt": "2020-02-21T11:15:24.439Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 33,
-        "publishedAt": "2020-02-21T11:15:24.439Z",
-        "firstPublishedAt": "2020-02-21T11:15:24.439Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 34,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "callout"
-          }
-        }
-      },
-      "fields": {
-        "content": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "This is some compelling content which is made more prominent to draw the reader's attention and encourage them to dive deeper into the main content. Yup. It's a call out.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              }
-            ]
-          }
         }
       }
     },
@@ -4936,7 +4586,7 @@
         "heading": {
           "en-US": "Augment This!"
         },
-        "body": {
+        "richTextContent": {
           "en-US": {
             "nodeType": "document",
             "data": {
@@ -5101,7 +4751,7 @@
         "title": {
           "en-US": "Layering reality and unreality"
         },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -5115,78 +4765,6 @@
         },
         "caption": {
           "en-US": "Augmented reality can be a powerful tool for revealing the hidden layers of complex objects, systems and concepts."
-        },
-        "attribution": {
-          "en-US": {
-            "data": {
-            },
-            "content": [
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "Image by ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://pixabay.com/users/Mediamodifier-1567646/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2411303"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Mediamodifier",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": " from ",
-                    "nodeType": "text"
-                  },
-                  {
-                    "data": {
-                      "uri": "https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2411303"
-                    },
-                    "content": [
-                      {
-                        "data": {
-                        },
-                        "marks": [
-                        ],
-                        "value": "Pixabay",
-                        "nodeType": "text"
-                      }
-                    ],
-                    "nodeType": "hyperlink"
-                  },
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              }
-            ],
-            "nodeType": "document"
-          }
         }
       }
     },
@@ -5245,10 +4823,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Will Brad Pigeon"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Will"
         },
         "jobTitle": {
@@ -5266,7 +4844,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -5386,10 +4964,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Phil Matt Wu"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Phil"
         },
         "jobTitle": {
@@ -5407,7 +4985,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -5512,10 +5090,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Tristan James Sweet"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Tristan"
         },
         "jobTitle": {
@@ -5533,7 +5111,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -5638,10 +5216,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Morwenna Barker"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Morwenna"
         },
         "jobTitle": {
@@ -5659,7 +5237,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -5764,10 +5342,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Chloe Blast"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Chloe"
         },
         "jobTitle": {
@@ -5785,7 +5363,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -5875,10 +5453,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Clarke \"Tommy\" Doop"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Tommy"
         },
         "jobTitle": {
@@ -5896,7 +5474,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -5986,10 +5564,10 @@
         }
       },
       "fields": {
-        "fullname": {
+        "fullName": {
           "en-US": "Charity Ferguson"
         },
-        "name": {
+        "preferredName": {
           "en-US": "Charity"
         },
         "jobTitle": {
@@ -6007,7 +5585,7 @@
             }
           }
         },
-        "bio": {
+        "bioRichText": {
           "en-US": {
             "data": {
             },
@@ -6103,7 +5681,7 @@
         "slug": {
           "en-US": "catalyst-gang"
         },
-        "description": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -6226,7 +5804,7 @@
         "slug": {
           "en-US": "activationing-gang"
         },
-        "description": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -6417,7 +5995,7 @@
         "slug": {
           "en-US": "meta-services-team"
         },
-        "description": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -6661,7 +6239,7 @@
         "id": "7IwWI0la7th0a9JMslh9Kn",
         "type": "Entry",
         "createdAt": "2020-02-23T02:41:17.363Z",
-        "updatedAt": "2020-02-23T10:17:28.618Z",
+        "updatedAt": "2020-02-24T03:16:19.728Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6669,8 +6247,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 104,
-        "publishedAt": "2020-02-23T10:17:28.618Z",
+        "publishedVersion": 107,
+        "publishedAt": "2020-02-24T03:16:19.728Z",
         "firstPublishedAt": "2020-02-23T02:51:48.406Z",
         "createdBy": {
           "sys": {
@@ -6686,8 +6264,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 4,
-        "version": 105,
+        "publishedCounter": 5,
+        "version": 108,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6750,7 +6328,7 @@
             }
           ]
         },
-        "story": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -6870,35 +6448,6 @@
                     "marks": [
                     ],
                     "value": "Unlike other universities, we know we are only as good as the unique minds we support and foster. We want to invite people with diverse backgrounds and life experience to help us build the new world. Our proof points then focus on how we foster a supportive environment, flexible study options, communicate warmth and community mindedness with progressive points of view.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                  "target": {
-                    "sys": {
-                      "id": "5QUbsXtAUgi9NXofrpWB25",
-                      "type": "Link",
-                      "linkType": "Entry"
-                    }
-                  }
-                },
-                "content": [
-                ],
-                "nodeType": "embedded-entry-block"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
-                    "value": "",
                     "nodeType": "text"
                   }
                 ],
@@ -7113,7 +6662,7 @@
             }
           ]
         },
-        "story": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -7358,7 +6907,7 @@
         "title": {
           "en-US": "Bees from the Natural Cracker Company TVC"
         },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -7433,7 +6982,7 @@
         "title": {
           "en-US": "Natural Cracker Company TVC Lamb "
         },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",
@@ -7534,7 +7083,7 @@
             }
           }
         },
-        "story": {
+        "richTextContent": {
           "en-US": {
             "data": {
             },
@@ -7933,7 +7482,7 @@
         "title": {
           "en-US": "CDU Work Examples"
         },
-        "file": {
+        "image": {
           "en-US": {
             "sys": {
               "type": "Link",

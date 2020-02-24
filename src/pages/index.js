@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import ContentItemPreview from "../components/ContentItemPreview"
+import Layout from "../components/layout"
 
 export default ({ data }) => {
   const vineData = data.allContentfulVine.nodes
@@ -14,12 +15,12 @@ export default ({ data }) => {
   ))
 
   return (
-    <>
-      <h2>Vines</h2>
+    <Layout>
+      <h1>Vines</h1>
       {vines}
       <h2>Articles</h2>
       {articles}
-    </>
+    </Layout>
   )
 }
 

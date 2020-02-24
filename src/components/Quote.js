@@ -1,10 +1,10 @@
 import React from "react"
 import RichText from "./RichText"
 
-export default ({ content, source }) => {
+export default ({ richTextContent, source }) => {
   return (
     <figure className="quote">
-      {RichText(content)}
+      {RichText(richTextContent)}
       <figcaption>{source}</figcaption>
     </figure>
   )

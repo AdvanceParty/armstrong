@@ -44,20 +44,33 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 }
 
-// exports.createSchemaCustomization = ({ actions }) => {
-//   const { createTypes } = actions
-//   const typeDefs = `
-//     interface IndexedContent @nodeInterface {
-//       id: ID!
-//       slug: String!
-//       title: String!
-//       description: String!
-//     }
-//     type ContentfulVine implements Node & IndexedContent {
-//       slug: String!
-//       title: String!
-//       description: String!
-//     }
-//   `
-//   createTypes(typeDefs)
-// }
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    interface RichText {
+      id: ID!
+      json: JSON
+    }
+    type contentfulVineStoryRichTextNode implements Node & RichText {
+      id: ID!
+      json: JSON
+    }
+    type contentfulArticleStoryRichTextNode implements Node & RichText {
+      id: ID!
+      json: JSON
+    }
+    type contentfulHeroBodyRichTextNode implements Node & RichText {
+      id: ID!
+      json: JSON
+    }
+    type contentfulCalloutContentRichTextNode implements Node & RichText {
+      id: ID!
+      json: JSON
+    }
+    type contentfulRoyalBioRichTextNode implements Node & RichText {
+      id: ID!
+      json: JSON
+    }
+  `
+  createTypes(typeDefs)
+}
