@@ -12,7 +12,6 @@ export default ({ data }) => {
     <Layout>
       <h1>Quotable</h1>
       {quotes}
-      <hr />
     </Layout>
   )
 }

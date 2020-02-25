@@ -12,7 +12,6 @@ export default ({ data }) => {
     <Layout>
       <h1>Our Offices</h1>
       {offices}
-      <hr />
     </Layout>
   )
 }

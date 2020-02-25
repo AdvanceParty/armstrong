@@ -1,10 +1,9 @@
 import React from "react"
 import Nav from "./Nav"
 export default ({ children }) => (
-  <>
+  <div id="outer">
     <Nav />
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-      {children}
-    </div>
-  </>
+    <main>{children}</main>
+    <footer>A Royals Joint</footer>
+  </div>
 )

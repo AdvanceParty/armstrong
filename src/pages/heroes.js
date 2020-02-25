@@ -12,7 +12,6 @@ export default ({ data }) => {
     <Layout>
       <h1>Heroic</h1>
       {heroes}
-      <hr />
     </Layout>
   )
 }

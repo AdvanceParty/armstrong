@@ -12,7 +12,6 @@ export default ({ data }) => {
     <Layout>
       <h1>Royal Bios</h1>
       {royals}
-      <hr />
     </Layout>
   )
 }

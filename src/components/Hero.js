@@ -8,7 +8,7 @@ export default ({ heading, image, richTextContent }) => {
   // const rtc = richTextContent ? {RichText(richTextContent)} : null;
 
   return (
-    <section className="hero">
+    <section className="hero fullbleed">
       <div className="content">
         {heading ? <h3>{heading}</h3> : ""}
         {richTextContent ? RichText(richTextContent) : ""}

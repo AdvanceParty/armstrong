@@ -12,7 +12,6 @@ export default ({ data }) => {
     <Layout>
       <h1>Image Pods</h1>
       {images}
-      <hr />
     </Layout>
   )
 }

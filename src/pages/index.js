@@ -5,21 +5,21 @@ import Layout from "../components/layout"
 
 export default ({ data }) => {
   const vineData = data.allContentfulVine.nodes
-  const articleData = data.allContentfulArticle.nodes
 
-  const vines = vineData.map(node => (
+  const work = vineData.filter(node => node.type === "work")
+  const articles = vineData.filter(node => node.type === "article")
+
+  const getItemPreviewElement = node => (
     <ContentItemPreview {...node} key={node.id} />
-  ))
-  const articles = articleData.map(node => (
-    <ContentItemPreview {...node} key={node.id} />
-  ))
+  )
 
   return (
     <Layout>
-      <h1>Vines</h1>
-      {vines}
+      <h2>Work</h2>
+      {work.map(node => getItemPreviewElement(node))}
+
       <h2>Articles</h2>
-      {articles}
+      {articles.map(node => getItemPreviewElement(node))}
     </Layout>
   )
 }
@@ -32,17 +32,7 @@ export const query = graphql`
         id
         title
         description
-        # hero {
-        #   image
-        # }
-      }
-    }
-    allContentfulArticle {
-      nodes {
-        slug
-        id
-        title
-        description
+        type
       }
     }
   }

@@ -4,7 +4,6 @@ const path = require(`path`)
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const vineTemplate = path.resolve("./src/templates/vine.js")
-  const articleTemplate = path.resolve("./src/templates/article.js")
   const result = await graphql(`
     query {
       allContentfulVine {
@@ -13,27 +12,16 @@ exports.createPages = async ({ graphql, actions }) => {
           id
         }
       }
-      allContentfulArticle {
-        nodes {
-          slug
-          id
-        }
-      }
     }
   `)
 
-  const { allContentfulArticle, allContentfulVine } = result.data
+  const { allContentfulVine } = result.data
   const vines = allContentfulVine.nodes.map(item => ({
     ...item,
     component: vineTemplate,
   }))
-  const articles = allContentfulArticle.nodes.map(item => ({
-    ...item,
-    component: articleTemplate,
-  }))
-  const pages = [...vines, ...articles]
 
-  pages.forEach(page => {
+  vines.forEach(page => {
     createPage({
       path: `/${page.slug}/`,
       component: `${page.component}`,

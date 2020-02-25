@@ -20,7 +20,7 @@ export const query = graphql`
       title
       subtitle
       description
-      category
+      type
       richTextContent {
         json
       }

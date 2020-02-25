@@ -1,41 +1,59 @@
 @import "reset";
 @import "palettes";
 @import "typography";
+@import "baseLayout";
 @import "hero";
 @import "bio";
 
 body {
   background: var(--col-body-bg);
   min-height: 100vh;
+
+  --box-pad-top: 1em;
+  --box-pad-bottom: 1em;
+  --box-pad-left: 1em;
+  --box-pad-right: 1em;
+  --box-pad-all: var(--box-pad-top) var(--box-pad-right) var(--box-pad-bottom)
+    var(--box-pad-left);
 }
 
-figure {
-  display: block;
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
 }
 
-article[data-type="summary"] {
-  display: grid;
-  grid-template-areas: "header header" "thumb content" "thumb link";
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr;
-  column-gap: 1em;
+#sitenav {
+  padding: var(--box-pad-all);
+  background-color: var(--col-bg-dark);
+  color: var(--col-bodytext-invert);
 
-  h1 {
-    grid-area: header;
+  font-size: 0.8em;
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
   }
 
-  .link {
-    grid-area: link;
-  }
+  li {
+    display: inline;
 
-  > img {
-    grid-area: thumb;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-  }
+    a {
+      display: inline-block;
+      padding: 0.3em 0;
+      text-decoration: none;
 
-  .section {
-    grid-area: content;
+      &::after {
+        padding: 0 4px;
+        content: "|";
+      }
+    }
+
+    &:last-child a::after {
+      display: none;
+    }
   }
 }
