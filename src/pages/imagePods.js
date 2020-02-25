@@ -25,12 +25,7 @@ export const query = graphql`
         title
         caption
         alt
-        image {
-          id
-          fluid {
-            ...GatsbyContentfulFluid
-          }
-        }
+        ...ImageFluid
       }
     }
   }

@@ -26,12 +26,7 @@ export const query = graphql`
         richTextContent {
           json
         }
-        image {
-          id
-          fluid {
-            ...GatsbyContentfulFluid
-          }
-        }
+        ...ImageFluid
       }
     }
   }

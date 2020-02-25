@@ -32,6 +32,9 @@ export const query = graphql`
         id
         title
         description
+        # hero {
+        #   image
+        # }
       }
     }
     allContentfulArticle {

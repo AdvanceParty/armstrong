@@ -32,12 +32,7 @@ export const query = graphql`
         bioRichText {
           json
         }
-        image {
-          id
-          fluid {
-            ...GatsbyContentfulFluid
-          }
-        }
+        ...ImageFluid
       }
     }
   }

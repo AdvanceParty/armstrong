@@ -1,11 +1,13 @@
 import React from "react"
+import { Link } from "gatsby"
 
-export default ({ title, slug, id, description }) => {
+export default ({ title, description, thumbnailURL, link, id }) => {
   return (
     <section data-type-content="preview" id={id}>
       <h3>{title}</h3>
+      <img src={thumbnailURL} alt={`${title} (Thumbnail)`} />
       <p>{description}</p>
-      <a href={`/${slug}`}>Check it out, yo.</a>
+      <Link to={link} />
     </section>
   )
 }

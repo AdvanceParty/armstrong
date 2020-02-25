@@ -48,28 +48,40 @@ exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
     interface RichText {
-      id: ID!
-      json: JSON
+        id: ID!
+        json: JSON
     }
     type contentfulVineStoryRichTextNode implements Node & RichText {
-      id: ID!
-      json: JSON
+        id: ID!
+        json: JSON
     }
     type contentfulArticleStoryRichTextNode implements Node & RichText {
-      id: ID!
-      json: JSON
+        id: ID!
+        json: JSON
     }
     type contentfulHeroBodyRichTextNode implements Node & RichText {
-      id: ID!
-      json: JSON
+        id: ID!
+        json: JSON
     }
     type contentfulCalloutContentRichTextNode implements Node & RichText {
-      id: ID!
-      json: JSON
+        id: ID!
+        json: JSON
     }
     type contentfulRoyalBioRichTextNode implements Node & RichText {
-      id: ID!
-      json: JSON
+        id: ID!
+        json: JSON
+    }
+    interface ImageContainer {
+        image: ContentfulAsset
+    }
+    type ContentfulImagePod implements Node & ImageContainer {
+        image: ContentfulAsset
+    }
+    type ContentfulHero implements Node & ImageContainer {
+        image: ContentfulAsset
+    }
+    type ContentfulRoyal implements Node & ImageContainer {
+        image: ContentfulAsset
     }
   `
   createTypes(typeDefs)

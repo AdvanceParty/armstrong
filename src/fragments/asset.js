@@ -6,29 +6,26 @@ import { graphql } from "gatsby"
  * src: string
  * srcSet: comma separated string of "uri size" pairs
  */
+export const ImageFluid = graphql`
+  fragment ImageFluid on ImageContainer {
+    image {
+      id
+      fluid {
+        ...GatsbyContentfulFluid
+      }
+    }
+  }
+`
 
-// export const ImageThumbnail = graphql`
-//   fragment ImageThumbnail on ContentfulImage {
-//     alt
-//     caption
-//     file {
-//       title
-//       description
-//       fixed(width: 200, height: 200, resizingBehavior: FILL) {
-//         width
-//         height
-//         src
-//       }
-//     }
-//   }
-// `
-
-// export const ImageFluid = graphql`
-//   fragment ImageFluid on ContentfulAsset {
-//     file {
-//       fluid {
-//         ...GatsbyContentfulFluid
-//       }
-//     }
-//   }
-// `
+export const ImageThumbnal = graphql`
+  fragment ImageThumbnal on ImageContainer {
+    image {
+      id
+      fixed(width: 200, height: 200, resizingBehavior: FILL) {
+        width
+        height
+        src
+      }
+    }
+  }
+`
