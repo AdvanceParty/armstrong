@@ -9,19 +9,23 @@ export default () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/quotes">Demo: Quotes</Link>
+          <Link to="/podSummary">Pod Types</Link>
+        </li>
+        <li>PODS ➤ </li>
+        <li>
+          <Link to="/imagePods">Images</Link>
         </li>
         <li>
-          <Link to="/heroes">Demo: Hero</Link>
+          <Link to="/heroes">Heroes</Link>
         </li>
         <li>
-          <Link to="/royalProfiles">Demo: Royals' Profiles</Link>
+          <Link to="/royalProfiles">Royals</Link>
         </li>
         <li>
-          <Link to="/offices">Demo: Offices</Link>
+          <Link to="/offices">Offices</Link>
         </li>
         <li>
-          <Link to="/imagePods">Demo: Image Pods</Link>
+          <Link to="/quotes">Quotes</Link>
         </li>
       </ul>
     </nav>

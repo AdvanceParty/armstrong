@@ -451,7 +451,7 @@
         "id": "vine",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:02:09.564Z",
-        "updatedAt": "2020-02-24T03:15:33.270Z",
+        "updatedAt": "2020-02-25T04:51:59.916Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -459,8 +459,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 53,
-        "publishedAt": "2020-02-24T03:15:33.270Z",
+        "publishedVersion": 59,
+        "publishedAt": "2020-02-25T04:51:59.916Z",
         "firstPublishedAt": "2020-02-20T11:02:10.235Z",
         "createdBy": {
           "sys": {
@@ -476,8 +476,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 27,
-        "version": 54,
+        "publishedCounter": 30,
+        "version": 60,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -513,8 +513,8 @@
           "omitted": false
         },
         {
-          "id": "category",
-          "name": "Category",
+          "id": "type",
+          "name": "Type",
           "type": "Symbol",
           "localized": false,
           "required": true,
@@ -522,12 +522,31 @@
             {
               "in": [
                 "work",
-                "other"
+                "other",
+                "article",
+                "page"
               ]
             }
           ],
           "disabled": false,
           "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "royal"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
         },
         {
           "id": "description",
@@ -1523,218 +1542,6 @@
             "id": "25wcs8ynb5r9"
           }
         },
-        "id": "article",
-        "type": "ContentType",
-        "createdAt": "2020-02-23T01:53:19.110Z",
-        "updatedAt": "2020-02-24T03:11:45.377Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 31,
-        "publishedAt": "2020-02-24T03:11:45.377Z",
-        "firstPublishedAt": "2020-02-23T01:53:20.085Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 16,
-        "version": 32,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Article",
-      "description": "A blog post, opinion piece or other medium-to-long form article.",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "subtitle",
-          "name": "Subtitle",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "description",
-          "name": "Description",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "size": {
-                "max": 256
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "slug",
-          "name": "slug",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "author",
-          "name": "Author",
-          "type": "Array",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false,
-          "items": {
-            "type": "Link",
-            "validations": [
-              {
-                "linkContentType": [
-                  "royal"
-                ]
-              }
-            ],
-            "linkType": "Entry"
-          }
-        },
-        {
-          "id": "hero",
-          "name": "Hero",
-          "type": "Link",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "linkContentType": [
-                "banner"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Entry"
-        },
-        {
-          "id": "richTextContent",
-          "name": "Main Content",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "nodes": {
-                "entry-hyperlink": [
-                  {
-                    "linkContentType": [
-                      "article",
-                      "simplePage",
-                      "vine"
-                    ]
-                  }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "audio",
-                      "imageGallery",
-                      "image",
-                      "linkList",
-                      "video"
-                    ]
-                  }
-                ],
-                "embedded-entry-inline": [
-                  {
-                    "linkContentType": [
-                      "audio",
-                      "imageGallery",
-                      "image",
-                      "linkList",
-                      "video"
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "enabledMarks": [
-                "bold",
-                "italic"
-              ],
-              "message": "Only bold and italic marks are allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "heading-2",
-                "heading-3",
-                "heading-4",
-                "heading-5",
-                "heading-6",
-                "ordered-list",
-                "unordered-list",
-                "hyperlink",
-                "blockquote",
-                "entry-hyperlink"
-              ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, link to Url, quote, and link to entry nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
         "id": "office",
         "type": "ContentType",
         "createdAt": "2020-02-23T02:01:35.347Z",
@@ -2022,181 +1829,6 @@
           "omitted": false
         }
       ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
-        },
-        "id": "simplePage",
-        "type": "ContentType",
-        "createdAt": "2020-02-23T05:25:39.218Z",
-        "updatedAt": "2020-02-24T03:14:20.172Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 11,
-        "publishedAt": "2020-02-24T03:14:20.172Z",
-        "firstPublishedAt": "2020-02-23T05:25:40.186Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 6,
-        "version": 12,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Simple Page",
-      "description": "Plain template with rich text content field for general website pages (rather than vine bundles)",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "description",
-          "name": "Description",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "hero",
-          "name": "Hero",
-          "type": "Link",
-          "localized": false,
-          "required": false,
-          "validations": [
-            {
-              "linkContentType": [
-                "banner"
-              ]
-            }
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Entry"
-        },
-        {
-          "id": "slug",
-          "name": "Slug",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "richTextContent",
-          "name": "Content",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "nodes": {
-                "entry-hyperlink": [
-                  {
-                    "linkContentType": [
-                      "article",
-                      "simplePage",
-                      "vine"
-                    ]
-                  }
-                ],
-                "embedded-entry-block": [
-                  {
-                    "linkContentType": [
-                      "audio",
-                      "imageGallery",
-                      "image",
-                      "linkList",
-                      "video"
-                    ]
-                  }
-                ],
-                "embedded-entry-inline": [
-                  {
-                    "linkContentType": [
-                      "audio",
-                      "imageGallery",
-                      "image",
-                      "linkList",
-                      "video"
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "enabledMarks": [
-                "bold",
-                "italic"
-              ],
-              "message": "Only bold and italic marks are allowed"
-            },
-            {
-              "enabledNodeTypes": [
-                "heading-2",
-                "heading-3",
-                "heading-4",
-                "heading-5",
-                "heading-6",
-                "ordered-list",
-                "unordered-list",
-                "blockquote",
-                "entry-hyperlink",
-                "hr",
-                "hyperlink"
-              ],
-              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, quote, link to entry, horizontal rule, and link to Url nodes are allowed"
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
     }
   ],
   "editorInterfaces": [
@@ -2461,7 +2093,7 @@
             "linkType": "Space"
           }
         },
-        "version": 54,
+        "version": 60,
         "createdAt": "2020-02-20T11:02:10.307Z",
         "createdBy": {
           "sys": {
@@ -2470,7 +2102,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T03:15:35.115Z",
+        "updatedAt": "2020-02-25T04:52:01.137Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2505,8 +2137,16 @@
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "category",
+          "fieldId": "type",
           "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "settings": {
+            "helpText": "Optional, but recommended if you are creating an Article Vine."
+          },
+          "widgetId": "entryLinkEditor",
           "widgetNamespace": "builtin"
         },
         {
@@ -3049,96 +2689,6 @@
             "linkType": "Space"
           }
         },
-        "version": 32,
-        "createdAt": "2020-02-23T01:53:20.168Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-24T03:11:46.739Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "article",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "subtitle",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "description",
-          "settings": {
-            "helpText": "Briefly summarise the main topic or contention of the article. Used primarily for SEO and social media sharing, but may also be used for content previews and other summary components."
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "slug",
-          "settings": {
-            "helpText": "Auto generated based on your title. Helps with SEO-friendly urls."
-          },
-          "widgetId": "slugEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "author",
-          "settings": {
-            "bulkEditing": false
-          },
-          "widgetId": "entryLinksEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "hero",
-          "widgetId": "entryCardEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "richTextContent",
-          "widgetId": "richTextEditor",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
         "version": 16,
         "createdAt": "2020-02-23T02:01:36.595Z",
         "createdBy": {
@@ -3281,77 +2831,6 @@
         {
           "fieldId": "caption",
           "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "25wcs8ynb5r9",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 12,
-        "createdAt": "2020-02-23T05:25:40.263Z",
-        "createdBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2020-02-24T03:14:21.461Z",
-        "updatedBy": {
-          "sys": {
-            "id": "0cVYtZksgN3GcWiP83xwN5",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "simplePage",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "description",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "hero",
-          "widgetId": "entryLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "slug",
-          "widgetId": "slugEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "richTextContent",
-          "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -6288,7 +5767,7 @@
         "subtitle": {
           "en-US": "You make CDU: S1 2020 recruitment"
         },
-        "category": {
+        "type": {
           "en-US": "work"
         },
         "description": {
@@ -6573,7 +6052,7 @@
         "id": "sfd4BZfX4Lfh9FVsTCWrk",
         "type": "Entry",
         "createdAt": "2020-02-23T03:31:39.226Z",
-        "updatedAt": "2020-02-23T10:15:47.439Z",
+        "updatedAt": "2020-02-25T23:15:26.207Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6581,8 +6060,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 185,
-        "publishedAt": "2020-02-23T10:15:47.439Z",
+        "publishedVersion": 189,
+        "publishedAt": "2020-02-24T22:27:14.377Z",
         "firstPublishedAt": "2020-02-23T03:41:50.361Z",
         "createdBy": {
           "sys": {
@@ -6598,8 +6077,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 3,
-        "version": 186,
+        "publishedCounter": 4,
+        "version": 191,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6622,8 +6101,17 @@
         "subtitle": {
           "en-US": "Hidden Helpers"
         },
-        "category": {
+        "type": {
           "en-US": "work"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "285x1HS5oNyo4dt1s0FLQl"
+            }
+          }
         },
         "description": {
           "en-US": "Cutting through in a busy category, to launch the Natural Chip Company's new crackers line with something new and impactful."
@@ -6643,6 +6131,13 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
+                "id": "1scza5TLHMp1eJlGNX7alf"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
                 "id": "mCT4am1vQaQnhDMe98aBL"
               }
             },
@@ -6651,13 +6146,6 @@
                 "type": "Link",
                 "linkType": "Entry",
                 "id": "7lrRueF7ynavj0vsyK0Jgg"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1scza5TLHMp1eJlGNX7alf"
               }
             }
           ]
@@ -6726,20 +6214,6 @@
                   }
                 ],
                 "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                  "target": {
-                    "sys": {
-                      "id": "1scza5TLHMp1eJlGNX7alf",
-                      "type": "Link",
-                      "linkType": "Entry"
-                    }
-                  }
-                },
-                "content": [
-                ],
-                "nodeType": "embedded-entry-block"
               },
               {
                 "data": {
@@ -7008,10 +6482,10 @@
             "id": "25wcs8ynb5r9"
           }
         },
-        "id": "79V0KmR2Z6F6lKkUGePUEs",
+        "id": "5QUbsXtAUgi9NXofrpWB25",
         "type": "Entry",
-        "createdAt": "2020-02-23T03:52:11.520Z",
-        "updatedAt": "2020-02-23T03:55:43.807Z",
+        "createdAt": "2020-02-23T10:16:16.864Z",
+        "updatedAt": "2020-02-23T10:17:16.011Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7019,9 +6493,9 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 36,
-        "publishedAt": "2020-02-23T03:55:43.807Z",
-        "firstPublishedAt": "2020-02-23T03:55:43.807Z",
+        "publishedVersion": 30,
+        "publishedAt": "2020-02-23T10:17:16.011Z",
+        "firstPublishedAt": "2020-02-23T10:17:16.011Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -7037,7 +6511,7 @@
           }
         },
         "publishedCounter": 1,
-        "version": 37,
+        "version": 31,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7049,27 +6523,97 @@
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "article"
+            "id": "image"
           }
         }
       },
       "fields": {
         "title": {
-          "en-US": "Why is Augmented Reality so boring?"
+          "en-US": "CDU Work Examples"
         },
-        "slug": {
-          "en-US": "why-is-augmented-reality-so-boring"
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4GSM9aFYyZ2vyODDU8RM5J"
+            }
+          }
+        },
+        "alt": {
+          "en-US": "Examples of the work"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "25wcs8ynb5r9"
+          }
+        },
+        "id": "hmpfmvcaZrSFvq1QKx4w1",
+        "type": "Entry",
+        "createdAt": "2020-02-25T04:46:25.843Z",
+        "updatedAt": "2020-02-25T04:52:37.257Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 100,
+        "publishedAt": "2020-02-25T04:52:37.257Z",
+        "firstPublishedAt": "2020-02-25T04:49:17.213Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 101,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0cVYtZksgN3GcWiP83xwN5"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "vine"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Why is augmented reality so boring?"
+        },
+        "type": {
+          "en-US": "article"
         },
         "author": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "62bVTOM18Jf298LFF6g5c0"
-              }
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4CRmxe5jHQpSgcdZVmm2iW"
             }
-          ]
+          }
         },
         "description": {
           "en-US": "Why are there so few examples of mind-blowing AR? Where is the work that stops us in our tracks and, with equal parts admiration and melancholy, ask ourselves: Why didn’t I think of that?"
@@ -7082,6 +6626,17 @@
               "id": "4lJGZ2PF1cG8yq4Au8SFek"
             }
           }
+        },
+        "pods": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "szSvkVaIY4SytLsGgGo5T"
+              }
+            }
+          ]
         },
         "richTextContent": {
           "en-US": {
@@ -7421,78 +6976,9 @@
             ],
             "nodeType": "document"
           }
-        }
-      }
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "25wcs8ynb5r9"
-          }
         },
-        "id": "5QUbsXtAUgi9NXofrpWB25",
-        "type": "Entry",
-        "createdAt": "2020-02-23T10:16:16.864Z",
-        "updatedAt": "2020-02-23T10:17:16.011Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 30,
-        "publishedAt": "2020-02-23T10:17:16.011Z",
-        "firstPublishedAt": "2020-02-23T10:17:16.011Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 31,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "0cVYtZksgN3GcWiP83xwN5"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "image"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "CDU Work Examples"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4GSM9aFYyZ2vyODDU8RM5J"
-            }
-          }
-        },
-        "alt": {
-          "en-US": "Examples of the work"
+        "slug": {
+          "en-US": "why-is-augmented-reality-so-boring"
         }
       }
     }

@@ -17,8 +17,8 @@ export const ImageFluid = graphql`
   }
 `
 
-export const ImageThumbnal = graphql`
-  fragment ImageThumbnal on ImageContainer {
+export const ImageThumbnail = graphql`
+  fragment ImageThumbnail on ImageContainer {
     image {
       id
       fixed(width: 200, height: 200, resizingBehavior: FILL) {

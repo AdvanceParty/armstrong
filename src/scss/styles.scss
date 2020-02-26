@@ -30,6 +30,8 @@ a:active {
   background-color: var(--col-bg-dark);
   color: var(--col-bodytext-invert);
 
+  font-family: "Nunito", sans-serif;
+
   font-size: 0.8em;
 
   ul,
@@ -39,21 +41,38 @@ a:active {
   }
 
   li {
-    display: inline;
+    display: inline-block;
+    color: #333;
+    padding-right: 10px;
+
+    &:last-child {
+      padding-right: none;
+    }
 
     a {
       display: inline-block;
-      padding: 0.3em 0;
+      // padding: 0.3em 0;
       text-decoration: none;
+      color: var(--col-bodytext-invert);
+
+      &:hover {
+        background-color: var(--col-tint);
+      }
+
+      transition: all 800ms;
+
+      &::after,
+      &::before {
+        padding: 0 3px;
+      }
 
       &::after {
-        padding: 0 4px;
-        content: "|";
+        content: "⁍";
       }
-    }
 
-    &:last-child a::after {
-      display: none;
+      &::before {
+        content: "⁌";
+      }
     }
   }
 }
