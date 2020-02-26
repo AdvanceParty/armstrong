@@ -4,7 +4,7 @@ import RoyalProfile from "../components/RoyalProfile"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  const royals = data.allContentfulRoyal.nodes.map(royal => (
+  const royals = data.allContentfulRoyalPersonPod.nodes.map(royal => (
     <RoyalProfile {...royal} key={royal.id} />
   ))
 
@@ -18,7 +18,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allContentfulRoyal {
+    allContentfulRoyalPersonPod {
       nodes {
         id
         preferredName

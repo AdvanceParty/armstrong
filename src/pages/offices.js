@@ -4,7 +4,7 @@ import Office from "../components/Office"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  const offices = data.allContentfulOffice.nodes.map(office => (
+  const offices = data.allContentfulOfficePod.nodes.map(office => (
     <Office {...office} key={office.id} />
   ))
 
@@ -18,7 +18,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allContentfulOffice {
+    allContentfulOfficePod {
       nodes {
         id
         address1

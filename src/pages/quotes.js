@@ -4,7 +4,7 @@ import Quote from "../components/Quote"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  const quotes = data.allContentfulQuote.nodes.map(quote => (
+  const quotes = data.allContentfulQuotePod.nodes.map(quote => (
     <Quote {...quote} key={quote.id} />
   ))
 
@@ -18,7 +18,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allContentfulQuote {
+    allContentfulQuotePod {
       nodes {
         id
         source

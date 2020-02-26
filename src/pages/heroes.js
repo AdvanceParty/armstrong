@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  const heroes = data.allContentfulHero.nodes.map(hero => (
+  const heroes = data.allContentfulHeroPod.nodes.map(hero => (
     <Hero {...hero} key={hero.id} />
   ))
 
@@ -18,7 +18,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allContentfulHero {
+    allContentfulHeroPod {
       nodes {
         id
         heading

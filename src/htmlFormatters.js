@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const makeEl = ({ type, content = null, options }) =>
   React.createElement(type, options, content)
@@ -16,15 +17,9 @@ export const getLinkElem = ({
   content = "Click Me!",
   options = {},
 }) => {
-  return target
-    ? makeEl({
-        type: "Link",
-        content,
-        options: { ...options, to: target },
-      })
-    : ""
+  return target ? <Link to={target}>{content}</Link> : ""
 }
 
-export const getThumbnailElem = (src, alt = "", options = {}) => {
+export const getThumbnailElem = ({ src, alt = "", options = {} } = {}) => {
   return src ? makeEl({ type: "img", options: { ...options, src, alt } }) : ""
 }

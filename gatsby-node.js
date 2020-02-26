@@ -43,19 +43,15 @@ exports.createSchemaCustomization = ({ actions }) => {
         id: ID!
         json: JSON
     }
-    type contentfulArticleStoryRichTextNode implements Node & RichText {
+    type contentfulHeroPodBodyRichTextNode implements Node & RichText {
         id: ID!
         json: JSON
     }
-    type contentfulHeroBodyRichTextNode implements Node & RichText {
+    type contentfulCalloutPodContentRichTextNode implements Node & RichText {
         id: ID!
         json: JSON
     }
-    type contentfulCalloutContentRichTextNode implements Node & RichText {
-        id: ID!
-        json: JSON
-    }
-    type contentfulRoyalBioRichTextNode implements Node & RichText {
+    type contentfulRoyalPersonPodBioRichTextNode implements Node & RichText {
         id: ID!
         json: JSON
     }
@@ -65,10 +61,10 @@ exports.createSchemaCustomization = ({ actions }) => {
     type ContentfulImagePod implements Node & ImageContainer {
         image: ContentfulAsset
     }
-    type ContentfulHero implements Node & ImageContainer {
+    type ContentfulHeroPod implements Node & ImageContainer {
         image: ContentfulAsset
     }
-    type ContentfulRoyal implements Node & ImageContainer {
+    type ContentfulRoyalPersonPod implements Node & ImageContainer {
         image: ContentfulAsset
     }
   `

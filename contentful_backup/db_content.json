@@ -125,7 +125,7 @@
         "id": "quote",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:13:11.263Z",
-        "updatedAt": "2020-02-24T04:00:40.806Z",
+        "updatedAt": "2020-02-26T00:26:36.462Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -133,8 +133,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 17,
-        "publishedAt": "2020-02-24T04:00:40.806Z",
+        "publishedVersion": 19,
+        "publishedAt": "2020-02-26T00:26:36.462Z",
         "firstPublishedAt": "2020-02-17T11:13:12.811Z",
         "createdBy": {
           "sys": {
@@ -150,8 +150,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 9,
-        "version": 18,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -161,7 +161,7 @@
         }
       },
       "displayField": "source",
-      "name": "Quote",
+      "name": "Quote Pod",
       "description": "Fields for content and attribution, so you can drop a pithy quote and tell people where it came from.",
       "fields": [
         {
@@ -333,7 +333,7 @@
         "id": "banner",
         "type": "ContentType",
         "createdAt": "2020-02-17T11:27:50.553Z",
-        "updatedAt": "2020-02-24T03:36:18.548Z",
+        "updatedAt": "2020-02-26T00:25:50.573Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -341,8 +341,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 39,
-        "publishedAt": "2020-02-24T03:36:18.548Z",
+        "publishedVersion": 41,
+        "publishedAt": "2020-02-26T00:25:50.573Z",
         "firstPublishedAt": "2020-02-17T11:27:51.377Z",
         "createdBy": {
           "sys": {
@@ -358,8 +358,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 20,
-        "version": 40,
+        "publishedCounter": 21,
+        "version": 42,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -369,7 +369,7 @@
         }
       },
       "displayField": "heading",
-      "name": "Hero",
+      "name": "Hero Pod",
       "description": "Hero content",
       "fields": [
         {
@@ -712,7 +712,7 @@
         "id": "callToAction",
         "type": "ContentType",
         "createdAt": "2020-02-20T11:48:38.378Z",
-        "updatedAt": "2020-02-21T11:03:43.718Z",
+        "updatedAt": "2020-02-26T00:25:11.061Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -720,8 +720,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2020-02-21T11:03:43.718Z",
+        "publishedVersion": 13,
+        "publishedAt": "2020-02-26T00:25:11.061Z",
         "firstPublishedAt": "2020-02-20T11:48:40.232Z",
         "createdBy": {
           "sys": {
@@ -737,8 +737,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 7,
+        "version": 14,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -748,7 +748,7 @@
         }
       },
       "displayField": "label",
-      "name": "Call To Action",
+      "name": "Call To Action Pod",
       "description": "",
       "fields": [
         {
@@ -1126,7 +1126,7 @@
         "id": "royal",
         "type": "ContentType",
         "createdAt": "2020-02-22T05:59:57.166Z",
-        "updatedAt": "2020-02-24T05:48:56.163Z",
+        "updatedAt": "2020-02-26T00:26:16.781Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1134,8 +1134,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 27,
-        "publishedAt": "2020-02-24T05:48:56.163Z",
+        "publishedVersion": 29,
+        "publishedAt": "2020-02-26T00:26:16.781Z",
         "firstPublishedAt": "2020-02-22T05:59:58.133Z",
         "createdBy": {
           "sys": {
@@ -1151,8 +1151,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 14,
-        "version": 28,
+        "publishedCounter": 15,
+        "version": 30,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1162,7 +1162,7 @@
         }
       },
       "displayField": "fullName",
-      "name": "Royal",
+      "name": "Royal (Person) Pod",
       "description": "A member of our very own Royals family.",
       "fields": [
         {
@@ -1309,7 +1309,7 @@
         "id": "group",
         "type": "ContentType",
         "createdAt": "2020-02-22T23:58:58.637Z",
-        "updatedAt": "2020-02-24T03:04:37.311Z",
+        "updatedAt": "2020-02-26T00:25:31.168Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1317,8 +1317,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2020-02-24T03:04:37.311Z",
+        "publishedVersion": 11,
+        "publishedAt": "2020-02-26T00:25:31.168Z",
         "firstPublishedAt": "2020-02-22T23:59:00.059Z",
         "createdBy": {
           "sys": {
@@ -1334,8 +1334,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 5,
-        "version": 10,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1345,7 +1345,7 @@
         }
       },
       "displayField": "title",
-      "name": "Group",
+      "name": "Group Pod",
       "description": "A collection of related Person entries. Examples include organisational teams (Royals Gangs/Partners, special project teams (Green Team) etc.",
       "fields": [
         {
@@ -1545,7 +1545,7 @@
         "id": "office",
         "type": "ContentType",
         "createdAt": "2020-02-23T02:01:35.347Z",
-        "updatedAt": "2020-02-24T02:54:27.524Z",
+        "updatedAt": "2020-02-26T00:26:51.851Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1553,8 +1553,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2020-02-24T02:54:27.524Z",
+        "publishedVersion": 17,
+        "publishedAt": "2020-02-26T00:26:51.851Z",
         "firstPublishedAt": "2020-02-23T02:01:36.490Z",
         "createdBy": {
           "sys": {
@@ -1570,8 +1570,8 @@
             "id": "0cVYtZksgN3GcWiP83xwN5"
           }
         },
-        "publishedCounter": 8,
-        "version": 16,
+        "publishedCounter": 9,
+        "version": 18,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1581,7 +1581,7 @@
         }
       },
       "displayField": "title",
-      "name": "Office",
+      "name": "Office Pod",
       "description": "Location and contact information for a Royals office.",
       "fields": [
         {
@@ -1912,7 +1912,7 @@
             "linkType": "Space"
           }
         },
-        "version": 18,
+        "version": 20,
         "createdAt": "2020-02-17T11:13:12.883Z",
         "createdBy": {
           "sys": {
@@ -1921,7 +1921,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T04:00:42.101Z",
+        "updatedAt": "2020-02-26T00:26:37.682Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2032,7 +2032,7 @@
             "linkType": "Space"
           }
         },
-        "version": 40,
+        "version": 42,
         "createdAt": "2020-02-17T11:27:51.439Z",
         "createdBy": {
           "sys": {
@@ -2041,7 +2041,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T03:36:20.225Z",
+        "updatedAt": "2020-02-26T00:25:51.810Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2196,7 +2196,7 @@
             "linkType": "Space"
           }
         },
-        "version": 11,
+        "version": 13,
         "createdAt": "2020-02-20T11:48:40.296Z",
         "createdBy": {
           "sys": {
@@ -2205,7 +2205,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-21T11:03:45.057Z",
+        "updatedAt": "2020-02-26T00:25:12.267Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2463,7 +2463,7 @@
             "linkType": "Space"
           }
         },
-        "version": 28,
+        "version": 30,
         "createdAt": "2020-02-22T05:59:58.215Z",
         "createdBy": {
           "sys": {
@@ -2472,7 +2472,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T05:48:58.736Z",
+        "updatedAt": "2020-02-26T00:26:18.847Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2554,7 +2554,7 @@
             "linkType": "Space"
           }
         },
-        "version": 10,
+        "version": 12,
         "createdAt": "2020-02-22T23:59:00.131Z",
         "createdBy": {
           "sys": {
@@ -2563,7 +2563,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T03:04:38.584Z",
+        "updatedAt": "2020-02-26T00:25:32.395Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",
@@ -2689,7 +2689,7 @@
             "linkType": "Space"
           }
         },
-        "version": 16,
+        "version": 18,
         "createdAt": "2020-02-23T02:01:36.595Z",
         "createdBy": {
           "sys": {
@@ -2698,7 +2698,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-02-24T02:54:28.810Z",
+        "updatedAt": "2020-02-26T00:26:53.145Z",
         "updatedBy": {
           "sys": {
             "id": "0cVYtZksgN3GcWiP83xwN5",

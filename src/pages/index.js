@@ -9,9 +9,15 @@ export default ({ data }) => {
   const work = vineData.filter(node => node.type === "work")
   const articles = vineData.filter(node => node.type === "article")
 
-  const getItemPreviewElement = node => (
-    <ContentItemPreview {...node} key={node.id} />
-  )
+  const getItemPreviewElement = node => {
+    try {
+      let thumbnailURL = node.hero.image.fixed.src
+      node = { ...node, thumbnailURL }
+    } catch (e) {
+      // didn't find a thumbnail
+    }
+    return <ContentItemPreview {...node} key={node.id} />
+  }
 
   return (
     <Layout>
@@ -33,6 +39,9 @@ export const query = graphql`
         title
         description
         type
+        hero {
+          ...ImageThumbnail
+        }
       }
     }
   }
