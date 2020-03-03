@@ -32,8 +32,37 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 }
 
+// const richTextImplementors = [
+//   "contentfulVineStoryRichTextNode",
+//   "contentfulHeroPodBodyRichTextNode",
+//   "contentfulCalloutPodContentRichTextNode",
+//   "contentfulRoyalPersonPodBioRichTextNode",
+// ]
+
+// const imageContainerImplementors = [
+//   "ContentfulImagePod",
+//   "ContentfulHeroPod",
+//   "ContentfulRoyalPersonPod",
+// ]
+
+// const imageContDefs = imageContainerImplementors.map(
+//   type => `
+//   type ${type} implements Node & ImageContainer {
+//     image:ContentfulAsset
+//   }`
+// )
+
+// const richTextDefs = richTextImplementors.map(
+//   type => `
+//   type ${type} implements Node & RichText {
+//     id: ID!
+//     json: JSON
+//   }`
+// )
+
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
+  // const typeDefs = [...richTextDefs, ...imageContDefs].join("\n")
   const typeDefs = `
     interface RichText {
         id: ID!
@@ -51,7 +80,11 @@ exports.createSchemaCustomization = ({ actions }) => {
         id: ID!
         json: JSON
     }
-    type contentfulRoyalPersonPodBioRichTextNode implements Node & RichText {
+    type contentfulQuotePodRichTextContentRichTextNode implements Node & RichText {
+        id: ID!
+        json: JSON
+    }
+    type contentfulRoyalPersonPodBioRichTextRichTextNode implements Node & RichText {
         id: ID!
         json: JSON
     }
@@ -63,6 +96,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type ContentfulHeroPod implements Node & ImageContainer {
         image: ContentfulAsset
+        richTextContent: RichText
     }
     type ContentfulRoyalPersonPod implements Node & ImageContainer {
         image: ContentfulAsset

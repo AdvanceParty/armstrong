@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "spaceId": "@au_com_advanceparty_wwwproto_contentful_space",
+      "accessToken": "@au_com_advanceparty_wwwproto_contentful_token"
+    }
+  }
+}

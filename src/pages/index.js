@@ -34,14 +34,7 @@ export const query = graphql`
   query {
     allContentfulVine {
       nodes {
-        slug
-        id
-        title
-        description
-        type
-        hero {
-          ...ImageThumbnail
-        }
+        ...VinePreviewItem
       }
     }
   }

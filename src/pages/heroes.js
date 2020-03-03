@@ -20,12 +20,7 @@ export const query = graphql`
   query {
     allContentfulHeroPod {
       nodes {
-        id
-        heading
-        richTextContent {
-          json
-        }
-        ...ImageFluid
+        ...HeroPod
       }
     }
   }

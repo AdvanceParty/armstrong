@@ -20,17 +20,7 @@ export const query = graphql`
   query {
     allContentfulOfficePod {
       nodes {
-        id
-        address1
-        address2
-        title
-        postcode
-        suburb
-        state
-        map {
-          lat
-          lon
-        }
+        ...OfficePod
       }
     }
   }

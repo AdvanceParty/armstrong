@@ -20,11 +20,7 @@ export const query = graphql`
   query {
     allContentfulImagePod {
       nodes {
-        id
-        title
-        caption
-        alt
-        ...ImageFluid
+        ...ImagePod
       }
     }
   }

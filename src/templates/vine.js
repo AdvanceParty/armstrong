@@ -21,9 +21,6 @@ export const query = graphql`
       subtitle
       description
       type
-      richTextContent {
-        json
-      }
     }
   }
 `

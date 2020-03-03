@@ -1,8 +1,8 @@
-import { graphql } from "gatsby"
+// import { graphql } from "gatsby"
 
-export const ImageThumbnail = graphql`
-  fragment GenericRichText on RichText {
-    id
-    json
-  }
-`
+// export const RichTextContent = graphql`
+//   fragment RichTextContent on RichText {
+//     id
+//     json
+//   }
+// `

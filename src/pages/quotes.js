@@ -20,11 +20,7 @@ export const query = graphql`
   query {
     allContentfulQuotePod {
       nodes {
-        id
-        source
-        richTextContent {
-          json
-        }
+        ...QuotePod
       }
     }
   }

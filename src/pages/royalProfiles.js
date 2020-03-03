@@ -20,18 +20,7 @@ export const query = graphql`
   query {
     allContentfulRoyalPersonPod {
       nodes {
-        id
-        preferredName
-        fullName
-        jobTitle
-        joined
-        office {
-          title
-        }
-        bioRichText {
-          json
-        }
-        ...ImageFluid
+        ...RoyalPersonPod
       }
     }
   }
