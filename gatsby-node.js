@@ -60,13 +60,41 @@ exports.createPages = async ({ graphql, actions }) => {
 //   }`
 // )
 
-exports.createSchemaCustomization = ({ actions }) => {
+exports.createSchemaCustomization = ({ actions, schema }) => {
   const { createTypes } = actions
   // const typeDefs = [...richTextDefs, ...imageContDefs].join("\n")
-  const typeDefs = `
+  const typeDefs = []
+  // typeDefs.push(
+  //   schema.buildObjectType({
+  //     name: "Previewable",
+  //     fields: {
+  //       title: "String!",
+  //       description: "String!",
+  //       thumbnail: {
+  //         type: "ContentfulAsset",
+  //         resolve: source => {
+  //           let asset
+  //           // if (source.hero && source.hero.image) {
+  //           //   asset = source.here.image
+  //           // }
+  //           // // } else if (source.pods) {
+
+  //           // // }
+  //           return asset
+  //         },
+  //       },
+  //     },
+  //     interfaces: ["Node"],
+  //   })
+  // )
+
+  typeDefs.push(`
     interface RichText {
         id: ID!
         json: JSON
+    }
+    interface ImageContainer {
+        image: ContentfulAsset
     }
     type contentfulVineStoryRichTextNode implements Node & RichText {
         id: ID!
@@ -88,9 +116,6 @@ exports.createSchemaCustomization = ({ actions }) => {
         id: ID!
         json: JSON
     }
-    interface ImageContainer {
-        image: ContentfulAsset
-    }
     type ContentfulImagePod implements Node & ImageContainer {
         image: ContentfulAsset
     }
@@ -101,6 +126,22 @@ exports.createSchemaCustomization = ({ actions }) => {
     type ContentfulRoyalPersonPod implements Node & ImageContainer {
         image: ContentfulAsset
     }
-  `
+  `)
   createTypes(typeDefs)
 }
+
+// interface Previewable {
+//   title: String
+//   description: String
+//   thumbnail: ContentfulAsset
+//   slug: String
+//   hero: ContentfulHeroPod
+// }
+
+// type ContentfulVine implements Node & Previewable {
+//   title: String
+//   description: String
+//   slug: String
+//   thumbnail: ContentfulAsset
+//   hero: ContentfulHeroPod
+// }

@@ -10,13 +10,14 @@ export default ({ data }) => {
   const articles = vineData.filter(node => node.type === "article")
 
   const getItemPreviewElement = node => {
-    try {
-      let thumbnailURL = node.hero.image.fixed.src
-      node = { ...node, thumbnailURL }
-    } catch (e) {
-      // didn't find a thumbnail
+    const { thumbnail, link, ...props } = node
+    props.linkTo = link ? `/${link}` : null
+
+    if (thumbnail && thumbnail.image && thumbnail.image.fixed) {
+      props.thumbnailURL = thumbnail.image.fixed.src
     }
-    return <ContentItemPreview {...node} key={node.id} />
+
+    return <ContentItemPreview {...props} key={props.id} />
   }
 
   return (
@@ -34,7 +35,8 @@ export const query = graphql`
   query {
     allContentfulVine {
       nodes {
-        ...VinePreviewItem
+        type
+        ...VineItemPreview
       }
     }
   }

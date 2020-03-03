@@ -1,34 +1,24 @@
 import { graphql } from "gatsby"
 
-export const VinePreviewItem = graphql`
-  fragment VinePreviewItem on ContentfulVine {
-    slug
-    id
+export const VineItemPreview = graphql`
+  fragment VineItemPreview on ContentfulVine {
     title
     description
-    type
-    hero {
+    link: slug
+    thumbnail: hero {
       ...ImageThumbnail
     }
-  }
-`
-
-export const RichTextContent = graphql`
-  fragment RichTextContent on RichText {
-    id
-    json
   }
 `
 
 export const HeroPod = graphql`
   fragment HeroPod on ContentfulHeroPod {
     id
-    heading
-    richTextContent {
+    title: heading
+    body: richTextContent {
       ...RichTextContent
     }
-
-    ...ImageThumbnail
+    ...ImageFluid
   }
 `
 
@@ -85,29 +75,9 @@ export const RoyalPersonPod = graphql`
   }
 `
 
-// export const ArticleMVP = graphql`
-//   fragment ArticleMVP on ContentfulArticle {
-//     title
-//     description
-//     slug
-//   }
-// `
-
-// export const ArticleMetadata = graphql`
-//   fragment ArticleMetadata on ContentfulArticle {
-//     id
-//     updatedAt
-//     createdAt
-//     sys {
-//       revision
-//     }
-//   }
-// `
-
-// export const ArticleThumbnail = graphql`
-//   fragment ArticleThumbnail on ContentfulArticle {
-//     featureImage {
-//       ...ImageThumbnail
-//     }
-//   }
-// `
+export const RichTextContent = graphql`
+  fragment RichTextContent on RichText {
+    id
+    json
+  }
+`

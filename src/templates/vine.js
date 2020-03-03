@@ -17,10 +17,14 @@ export default ({ data }) => {
 export const query = graphql`
   query VineQuery($id: String) {
     contentfulVine(id: { eq: $id }) {
+      id
       title
-      subtitle
       description
+      subtitle
       type
+      richTextContent {
+        json
+      }
     }
   }
 `
